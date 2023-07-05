@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-lifestyle"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-lifestyle"/>
+	<version value="20210326"/>
+	<name value="Lifestyle"/>
+	<title value="Lifestyle"/>
+	<status value="draft"/>
+	<date value="2021-03-26"/>
+	<description value="This value set covers LOINC Codes for type of Lifestyle"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="228273003"/>
+				<display value="Finding relating to alcohol drinking behavior"/>
+			</concept>
+			<concept>
+				<code value="365981007"/>
+				<display value="Finding of tobacco smoking behavior"/>
+			</concept>
+			<concept>
+				<code value="228509002"/>
+				<display value="Finding relating to tobacco chewing"/>
+			</concept>
+			<concept>
+				<code value="41829006"/>
+				<display value="Finding relating to tobacco chewing"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

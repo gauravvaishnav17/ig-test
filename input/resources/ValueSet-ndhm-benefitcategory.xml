@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-benefitcategory" />
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-benefitcategory" />
+	<version value="20220714" />
+	<name value="BenefitCategory" />
+	<title value="Benefit Category" />
+	<status value="draft" />
+	<date value="2022-07-14" />
+	<description value="This value set includes codes for benefitcategory from SNOMEDCT" />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+			<display value="India" />
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement" />
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="781087000" />
+				<display value="Medical care" />
+			</concept>
+			<concept>
+				<code value="133898004" />
+				<display value="Preoperative care" />
+			</concept>
+			<concept>
+				<code value="11429006" />
+				<display value="Consultation" />
+			</concept>
+			<concept>
+				<code value="363680008" />
+				<display value="Radiographic imaging procedure" />
+			</concept>
+			<concept>
+				<code value="53115007" />
+				<display value="Diagnostic dental procedure" />
+			</concept>
+			<concept>
+				<code value="32150000" />
+				<display value="Periodontic procedure" />
+			</concept>
+			<concept>
+				<code value="55670007" />
+				<display value="Endodontic procedure" />
+			</concept>
+			<concept>
+				<code value="281171009" />
+				<display value="Maxillofacial technical (device) procedure" />
+			</concept>
+			<concept>
+				<code value="79076007" />
+				<display value="Prosthetic readjustment" />
+			</concept>
+			<concept>
+				<code value="110461004" />
+				<display value="Adjunctive care" />
+			</concept>
+			<concept>
+				<code value="225362009" />
+				<display value="Dental care" />
+			</concept>
+			<concept>
+				<code value="103697008" />
+				<display value="Patient referral for dental care" />
+			</concept>
+			<concept>
+				<code value="384762007" />
+				<display value="Transportation procedure" />
+			</concept>
+			<concept>
+				<code value="52637005" />
+				<display value="Test tube ovum fertilization" />
+			</concept>
+			<concept>
+				<code value="113091000" />
+				<display value="Magnetic resonance imaging" />
+			</concept>
+			<concept>
+				<code value="53958007" />
+				<display value="Harvesting of donor material" />
+			</concept>
+			<concept>
+				<code value="271298009" />
+				<display value="Organ retrieval operation" />
+			</concept>
+			<concept>
+				<code value="265764009" />
+				<display value="Renal dialysis" />
+			</concept>
+			<concept>
+				<code value="717278002" />
+				<display value="Burn care management" />
+			</concept>
+			<concept>
+				<code value="50849002" />
+				<display value="Emergency room admission" />
+			</concept>
+			<concept>
+				<code value="310054005" />
+				<display value="Infectious diseases service" />
+			</concept>
+			<concept>
+				<code value="240917005" />
+				<display value="Interventional radiology" />
+			</concept>
+			
+			<concept>
+				<code value="240917005" />
+				<display value="Interventional radiology" />
+			</concept>
+			<concept>
+				<code value="64915003" />
+				<display value="Cardiac surgery procedure" />
+			</concept>
+			<concept>
+				<code value="305367005" />
+				<display value="Admission to gastroenterology department" />
+			</concept>
+			<concept>
+				<code value="310056007" />
+				<display value="Nephrology service" />
+			</concept>
+			<concept>
+				<code value="305367005" />
+				<display value="Admission to gastroenterology department" />
+			</concept>
+			<concept>
+				<code value="310057003" />
+				<display value="Neurology service" />
+			</concept>
+			<concept>
+				<code value="310036006" />
+				<display value="Cardiology service" />
+			</concept>
+			<concept>
+				<code value="305366001" />
+				<display value="Admission to endocrinology department" />
+			</concept>
+			<concept>
+				<code value="310056007" />
+				<display value="Nephrology service" />
+			</concept>
+			<concept>
+				<code value="700415000" />
+				<display value="Pediatric surgery care management" />
+			</concept>
+			<concept>
+				<code value="305434007" />
+				<display value="Admission to urology department" />
+			</concept>
+			<concept>
+				<code value="830077005" />
+				<display value="Admission to neonatal intensive care unit" />
+			</concept>
+			<concept>
+				<code value="310039004" />
+				<display value="Pulmonary medicine service" />
+			</concept>
+			<concept>
+				<code value="108290001" />
+				<display value="Radiation oncology AND/OR radiotherapy" />
+			</concept>
+			<concept>
+				<code value="700415000" />
+				<display value="Pediatric surgery care management" />
+			</concept>
+			<concept>
+				<code value="399097000" />
+				<display value="Administration of anesthesia" />
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

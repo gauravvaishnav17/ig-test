@@ -1,0 +1,88 @@
+{
+    "resourceType": "CoverageEligibilityRequest",
+    "id": "validation-example-01",
+    "meta": {
+        "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/CoverageEligibilityRequest"
+        ]
+    },
+    
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Coverage Eligibility Request for Validation </div>"
+    },
+    "identifier": [
+        {
+            "id": "13245"
+        }
+    ],
+    "status": "active",
+    "priority": {
+        "coding": [
+            {
+                "code": "normal"
+            }
+        ]
+    },
+    "purpose": [
+        "validation"
+    ],
+    "patient": {
+        "reference": "Patient/example-01"
+    },
+    "servicedDate": "2023-07-04",
+    "created": "2022-07-04",
+    "enterer": {
+        "reference": "Practitioner/example-01"
+    },
+    "provider": {
+        "reference": "Organization/example-01"
+    },
+    "insurer": {
+        "reference": "Organization/example-01"
+    },
+    "facility": {
+        "reference": "Location/example-01"
+    },
+    "insurance": [
+        {
+            "id": "1a",
+            "focal": true,
+            "businessArrangement": "star-health",
+            "coverage": {
+                "reference": "Coverage/example-01"
+            }
+        }
+    ],
+    "item": [
+        {
+            "id": "1243",
+            "category": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct",
+                        "code": "225362009",
+                        "display": "Dental care"
+                    }
+                ]
+            },
+            "productOrService": {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "10849003",
+                    "display": "Removal of foreign body"
+                  }
+                ]
+              },
+            "diagnosis": [
+                {
+                    "id": "12453",
+                    "diagnosisReference": {
+                        "reference": "Condition/example-01"
+                    }
+                }
+            ]
+        }
+    ]
+}

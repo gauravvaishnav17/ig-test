@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-coverage-type" />
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-coverage-type" />
+	<version value="20210311" />
+	<name value="CoverageType" />
+	<title value="Coverage Type" />
+	<status value="draft" />
+	<date value="2021-03-11" />
+	<description value="This ValueSet consists of a set of codes that can be utilized to categorize the insurance coverage type." />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+			<display value="India" />
+		</coding>
+	</jurisdiction>
+	<compose>
+		<include>
+			<system value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-coverage-type"/>
+		</include>
+	</compose>
+</ValueSet>

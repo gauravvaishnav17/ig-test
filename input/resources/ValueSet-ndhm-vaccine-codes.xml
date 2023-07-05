@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-vaccine-codes"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-vaccine-codes"/>
+	<version value="20200828"/>
+	<name value="VaccineCodes"/>
+	<title value="Vaccine Codes"/>
+	<status value="draft"/>
+	<date value="2021-01-13"/>
+	<description value="This value set covers : All leaf nodes (preferred term) of children of Vaccine product containing bacteria antigen (medicinal product) and Vaccine product containing virus antigen (medicinal product) of the SNOMED CT"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			
+	<concept>
+		<code value="1119305005"/>
+		<display value="COVID-19 antigen vaccine"/>
+	</concept>
+			
+	<concept>
+		<code value="1119349007"/>
+		<display value="COVID-19 mRNA vaccine"/>
+	</concept>
+	<concept>
+		<code value="871761004"/>
+		<display value="Rotavirus vaccine"/>
+	</concept>
+	<concept>
+		<code value="318351000221106"/>
+		<display value="Diphtheria toxoid and acellular pertussis and inactivated poliomyelitis type 1,2, and 3 and tetanus toxoid pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="1052330009"/>
+		<display value="Pneumococcal 10-valent conjugate vaccine"/>
+	</concept>
+	<concept>
+		<code value="836498007"/>
+		<display value="Mumps orthorubulavirus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871929006"/>
+		<display value="Diphtheria and hepatitis B and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="2261000221104"/>
+		<display value="Influenza A virus subtypes H1N1 and H3N2 and Influenza B virus Victoria and Yamagata lineage antigens only vaccine product"/>
+	</concept>
+	<concept>
+		<code value="428601009"/>
+		<display value="Paratyphoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="836389008"/>
+		<display value="Vaccinia virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871755002"/>
+		<display value="Typhoid Vi capsular polysaccharide vaccine"/>
+	</concept>
+	<concept>
+		<code value="871732000"/>
+		<display value="Rubella vaccine"/>
+	</concept>
+	<concept>
+		<code value="836400005"/>
+		<display value="Adenovirus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871893003"/>
+		<display value="Diphtheria and acellular pertussis and inactivated poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="971000221109"/>
+		<display value="Live attenuated typhoid vaccine in oral dose form"/>
+	</concept>
+	<concept>
+		<code value="601000221108"/>
+		<display value="Bordetella pertussis antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="1181000221105"/>
+		<display value="Influenza vaccine"/>
+	</concept>
+	<concept>
+		<code value="871878002"/>
+		<display value="Diphtheria and pertussis and poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="2031000221103"/>
+		<display value="Adult diphtheria and tetanus toxoids vaccine"/>
+	</concept>
+	<concept>
+		<code value="871723002"/>
+		<display value="Q fever vaccine"/>
+	</concept>
+	<concept>
+		<code value="871826000"/>
+		<display value="Diphtheria and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871921009"/>
+		<display value="Staphylococcus toxoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="836375003"/>
+		<display value="Hepatitis A virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="836398006"/>
+		<display value="Streptococcus pneumoniae antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="2181000221101"/>
+		<display value="Cholera vaccine in oral dose form"/>
+	</concept>
+	<concept>
+		<code value="1031000221108"/>
+		<display value="Human poliovirus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="860818003"/>
+		<display value="Anthrax vaccine"/>
+	</concept>
+	<concept>
+		<code value="871887006"/>
+		<display value="Diphtheria and Haemophilus influenzae type B and pertussis and poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871803007"/>
+		<display value="Hepatitis A and B vaccine"/>
+	</concept>
+	<concept>
+		<code value="836495005"/>
+		<display value="Varicella-zoster virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871717007"/>
+		<display value="Yellow fever vaccine"/>
+	</concept>
+	<concept>
+		<code value="1111000221101"/>
+		<display value="Live attenuated Argentinian haemorrhagic fever vaccine"/>
+	</concept>
+	<concept>
+		<code value="1111000221101"/>
+		<display value="Live attenuated Argentinian hemorrhagic fever vaccine"/>
+	</concept>
+	<concept>
+		<code value="871737006"/>
+		<display value="Mumps vaccine"/>
+	</concept>
+	<concept>
+		<code value="871890000"/>
+		<display value="Diphtheria and Haemophilus influenzae type B and poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871758000"/>
+		<display value="Pertussis vaccine"/>
+	</concept>
+	<concept>
+		<code value="871764007"/>
+		<display value="Haemophilus influenzae type B vaccine"/>
+	</concept>
+	<concept>
+		<code value="2251000221101"/>
+		<display value="Live attenuated measles and mumps and rubella and varicella-zoster vaccine"/>
+	</concept>
+	<concept>
+		<code value="836403007"/>
+		<display value="Tick-borne encephalitis virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="91000221102"/>
+		<display value="Inactivated hepatitis A vaccine"/>
+	</concept>
+	<concept>
+		<code value="836384003"/>
+		<display value="Bacillus anthracis antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="1121000221106"/>
+		<display value="Live attenuated yellow fever vaccine"/>
+	</concept>
+	<concept>
+		<code value="1119220001"/>
+		<display value="Pneumococcal 23-valent conjugate vaccine"/>
+	</concept>
+	<concept>
+		<code value="2191000221103"/>
+		<display value="Inactivated rabies vaccine grown in cellular line"/>
+	</concept>
+	<concept>
+		<code value="1861000221106"/>
+		<display value="BCG (Bacillus Calmette-Guerin) vaccine"/>
+	</concept>
+	<concept>
+		<code value="871873006"/>
+		<display value="Meningitis A, C, W135 and Y vaccine"/>
+	</concept>
+	<concept>
+		<code value="462321000124107"/>
+		<display value="Tdap - Low dose diphtheria and low dose acellular pertussis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="319941000221104"/>
+		<display value="BCG (Bacillus Calmette-Guerin) vaccine in parenteral dose form"/>
+	</concept>
+	<concept>
+		<code value="871750007"/>
+		<display value="Hepatitis A pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="871750007"/>
+		<display value="Hepatitis A paediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="871726005"/>
+		<display value="Rabies vaccine"/>
+	</concept>
+	<concept>
+		<code value="836378001"/>
+		<display value="Japanese encephalitis virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="2021000221101"/>
+		<display value="Tetanus toxoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="840564009"/>
+		<display value="Leptospira antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="840599008"/>
+		<display value="Borrelia burgdorferi antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="1010308001"/>
+		<display value="Inactivated whole Hepatitis A HM-175 strain vaccine"/>
+	</concept>
+	<concept>
+		<code value="2091000221104"/>
+		<display value="Diphtheria and Haemophilus influenza B and acellular pertussis and poliomyelitis and tetanus pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="836381006"/>
+		<display value="Corynebacterium diphtheriae antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871891001"/>
+		<display value="Diphtheria and hepatitis B and acellular pertussis and inactivated poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="836387005"/>
+		<display value="Rotavirus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="836368004"/>
+		<display value="Bacteria antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="774618008"/>
+		<display value="Diphtheria toxoid and whole cell pertussis and tetanus toxoid adsorbed vaccine"/>
+	</concept>
+	<concept>
+		<code value="836393002"/>
+		<display value="Rabies lyssavirus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871837004"/>
+		<display value="Diphtheria and poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871738001"/>
+		<display value="Live attenuated mumps vaccine"/>
+	</concept>
+	<concept>
+		<code value="836402002"/>
+		<display value="Live attenuated Mycobacterium bovis antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871908002"/>
+		<display value="Measles and mumps and rubella and varicella virus vaccine"/>
+	</concept>
+	<concept>
+		<code value="991000221105"/>
+		<display value="Cholera vaccine"/>
+	</concept>
+	<concept>
+		<code value="871721000"/>
+		<display value="Ebolavirus antigen only vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871876003"/>
+		<display value="Diphtheria and acellular pertussis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="2241000221103"/>
+		<display value="Live attenuated measles, mumps, and rubella vaccine"/>
+	</concept>
+	<concept>
+		<code value="871772009"/>
+		<display value="Influenza H1N1 vaccine"/>
+	</concept>
+	<concept>
+		<code value="871730008"/>
+		<display value="Low dose diphtheria vaccine"/>
+	</concept>
+	<concept>
+		<code value="1119254000"/>
+		<display value="Pneumococcal 13-valent conjugate vaccine"/>
+	</concept>
+	<concept>
+		<code value="911000221103"/>
+		<display value="Human papillomavirus vaccine"/>
+	</concept>
+	<concept>
+		<code value="318341000221109"/>
+		<display value="Diphtheria toxoid and Haemophilus influenzae type B and acellular pertussis and tetanus toxoid pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="318341000221109"/>
+		<display value="Diphtheria toxoid and Haemophilus influenzae type B and acellular pertussis and tetanus toxoid paediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="836390004"/>
+		<display value="Salmonella enterica subspecies enterica serovar Typhi antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="961000221100"/>
+		<display value="Typhoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="871817003"/>
+		<display value="Measles and rubella vaccine"/>
+	</concept>
+	<concept>
+		<code value="871766009"/>
+		<display value="Live attenuated measles vaccine"/>
+	</concept>
+	<concept>
+		<code value="1010689004"/>
+		<display value="Haemophilus influenzae type B capsular polysaccharide polyribosylribitol phosphate conjugated to Clostridium tetani toxoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="871729003"/>
+		<display value="Diphtheria vaccine"/>
+	</concept>
+	<concept>
+		<code value="1011000221100"/>
+		<display value="Live attenuated cholera vaccine in oral dose form"/>
+	</concept>
+	<concept>
+		<code value="871724008"/>
+		<display value="Japanese encephalitis virus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871871008"/>
+		<display value="Meningitis A and C vaccine"/>
+	</concept>
+	<concept>
+		<code value="775641005"/>
+		<display value="Diphtheria toxoid and tetanus toxoid adsorbed vaccine"/>
+	</concept>
+	<concept>
+		<code value="1801000221105"/>
+		<display value="Pneumococcal polysaccharide vaccine"/>
+	</concept>
+	<concept>
+		<code value="2171000221104"/>
+		<display value="Typhoid polysaccharide vaccine in parenteral dose form"/>
+	</concept>
+	<concept>
+		<code value="777725002"/>
+		<display value="Tetanus toxoid adsorbed vaccine"/>
+	</concept>
+	<concept>
+		<code value="2041000221105"/>
+		<display value="Haemophilus influenzae type B capsular polysaccharide conjugated vaccine"/>
+	</concept>
+	<concept>
+		<code value="871718002"/>
+		<display value="Plague vaccine"/>
+	</concept>
+	<concept>
+		<code value="409568008"/>
+		<display value="Pentavalent (ABCDE) botulinum toxoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="121000221105"/>
+		<display value="Inactivated hepatitis A and hepatitis B surface antigen vaccine"/>
+	</concept>
+	<concept>
+		<code value="840549009"/>
+		<display value="Yersinia pestis antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871911001"/>
+		<display value="Lyme disease vaccine"/>
+	</concept>
+	<concept>
+		<code value="871919004"/>
+		<display value="Varicella-zoster vaccine"/>
+	</concept>
+	<concept>
+		<code value="871806004"/>
+		<display value="Haemophilus influenzae type B and Hepatitis B virus antigens only vaccine product"/>
+	</concept>
+	<concept>
+		<code value="2001000221108"/>
+		<display value="Human papillomavirus 6, 11, 16 and 18 vaccine"/>
+	</concept>
+	<concept>
+		<code value="871925000"/>
+		<display value="Hepatitis B surface antigen vaccine"/>
+	</concept>
+	<concept>
+		<code value="2071000221100"/>
+		<display value="Diphtheria toxoid and Haemophilus influenzae type B and whole cell pertussis and tetanus toxoid paediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="2071000221100"/>
+		<display value="Diphtheria toxoid and Haemophilus influenzae type B and whole cell pertussis and tetanus toxoid pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="1052328007"/>
+		<display value="Pneumococcal 7-valent conjugate vaccine"/>
+	</concept>
+	<concept>
+		<code value="1010313002"/>
+		<display value="Live attenuated influenza vaccine"/>
+	</concept>
+	<concept>
+		<code value="871765008"/>
+		<display value="Measles vaccine"/>
+	</concept>
+	<concept>
+		<code value="1119351006"/>
+		<display value="Haemophilus influenzae type B and meningitis C and Y vaccine"/>
+	</concept>
+	<concept>
+		<code value="836385002"/>
+		<display value="Yellow fever virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871759008"/>
+		<display value="Acellular pertussis vaccine"/>
+	</concept>
+	<concept>
+		<code value="1001000221103"/>
+		<display value="Inactivated cholera vaccine in oral dose form"/>
+	</concept>
+	<concept>
+		<code value="871839001"/>
+		<display value="Diphtheria and Haemophilus influenzae B and pertussis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871816007"/>
+		<display value="Poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871742003"/>
+		<display value="Tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="1981000221108"/>
+		<display value="Meningococcus serogroup B vaccine"/>
+	</concept>
+	<concept>
+		<code value="871916006"/>
+		<display value="Meningococcus A, C, W135 and Y capsular oligosaccharide conjugated vaccine"/>
+	</concept>
+	<concept>
+		<code value="871883005"/>
+		<display value="Diphtheria and acellular pertussis and poliomyelitis and tetanus paediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="871883005"/>
+		<display value="Diphtheria and acellular pertussis and poliomyelitis and tetanus pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="836379009"/>
+		<display value="Human papillomavirus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871751006"/>
+		<display value="Hepatitis A vaccine"/>
+	</concept>
+	<concept>
+		<code value="840563003"/>
+		<display value="Dengue virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871727001"/>
+		<display value="Vaccinia virus antigen only vaccine product"/>
+	</concept>
+	<concept>
+		<code value="1010310004"/>
+		<display value="Live attenuated Oka-Merck strain varicella vaccine"/>
+	</concept>
+	<concept>
+		<code value="871897002"/>
+		<display value="Rocky Mountain spotted fever vaccine"/>
+	</concept>
+	<concept>
+		<code value="1081000221109"/>
+		<display value="Live attenuated rotavirus vaccine"/>
+	</concept>
+	<concept>
+		<code value="836382004"/>
+		<display value="Measles morbillivirus antigen-containing product"/>
+	</concept>
+	<concept>
+		<code value="1010322001"/>
+		<display value="Live attenuated Oka strain varicella vaccine"/>
+	</concept>
+	<concept>
+		<code value="871822003"/>
+		<display value="Hepatitis B vaccine"/>
+	</concept>
+	<concept>
+		<code value="2221000221107"/>
+		<display value="Live attenuated Varicella-zoster vaccine"/>
+	</concept>
+	<concept>
+		<code value="1119279002"/>
+		<display value="Inactivated whole Influenza H5N1 vaccine"/>
+	</concept>
+	<concept>
+		<code value="836388000"/>
+		<display value="Rubella virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871888001"/>
+		<display value="Diphtheria and Haemophilus influenza B and acellular pertussis and inactivated poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="1010318006"/>
+		<display value="Inactivated whole Hepatitis A GBM strain vaccine"/>
+	</concept>
+	<concept>
+		<code value="37146000"/>
+		<display value="Typhus vaccine"/>
+	</concept>
+	<concept>
+		<code value="1991000221106"/>
+		<display value="Human papillomavirus 16 and 18 vaccine"/>
+	</concept>
+	<concept>
+		<code value="1061000221102"/>
+		<display value="Meningitis polysaccharide vaccine"/>
+	</concept>
+	<concept>
+		<code value="871894009"/>
+		<display value="Low dose diphtheria and acellular pertussis and inactivated poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871722007"/>
+		<display value="Adenovirus antigen only vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871928003"/>
+		<display value="Diphtheria and measles and pertussis and poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871831003"/>
+		<display value="Measles and mumps and rubella vaccine"/>
+	</concept>
+	<concept>
+		<code value="871804001"/>
+		<display value="Hepatitis A and typhoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="2211000221102"/>
+		<display value="Influenza A virus subtypes H1N1 and H3N2 and influenza B virus Victoria lineage antigens only vaccine product"/>
+	</concept>
+	<concept>
+		<code value="1003499009"/>
+		<display value="Influenza H5N1 vaccine"/>
+	</concept>
+	<concept>
+		<code value="836374004"/>
+		<display value="Hepatitis B virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871768005"/>
+		<display value="Influenza vaccine in nasal dose form"/>
+	</concept>
+	<concept>
+		<code value="871716003"/>
+		<display value="Tularemia vaccine"/>
+	</concept>
+	<concept>
+		<code value="871716003"/>
+		<display value="Tularaemia vaccine"/>
+	</concept>
+	<concept>
+		<code value="871825001"/>
+		<display value="Inactivated Japanese encephalitis virus adsorbed vaccine"/>
+	</concept>
+	<concept>
+		<code value="871866001"/>
+		<display value="Meningitis C vaccine"/>
+	</concept>
+	<concept>
+		<code value="836421005"/>
+		<display value="Ebolavirus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871895005"/>
+		<display value="Diphtheria and Haemophilus influenzae type B and hepatitis B and pertussis and poliomyelitis and tetanus"/>
+	</concept>
+	<concept>
+		<code value="921000221108"/>
+		<display value="Meningococcus vaccine"/>
+	</concept>
+	<concept>
+		<code value="951000221102"/>
+		<display value="Meningococcus group C capsular polysaccharide conjugate vaccine"/>
+	</concept>
+	<concept>
+		<code value="863950005"/>
+		<display value="Bacteria and virus antigens-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871740006"/>
+		<display value="Inactivated polio vaccine"/>
+	</concept>
+	<concept>
+		<code value="2051000221107"/>
+		<display value="Adult diphtheria toxoid and acellular pertussis and tetanus toxoid vaccine"/>
+	</concept>
+	<concept>
+		<code value="1131000221109"/>
+		<display value="Inactivated rabies vaccine"/>
+	</concept>
+	<concept>
+		<code value="871725009"/>
+		<display value="Inactivated Japanese encephalitis virus vaccine"/>
+	</concept>
+	<concept>
+		<code value="836380007"/>
+		<display value="Haemophilus influenzae type B antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="863911006"/>
+		<display value="Clostridium tetani antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="836377006"/>
+		<display value="Influenza virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871918007"/>
+		<display value="Rickettsia antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="1051000221104"/>
+		<display value="Live attenuated poliovirus serotypes 1 and 3 vaccine in oral dose form"/>
+	</concept>
+	<concept>
+		<code value="2061000221109"/>
+		<display value="Diphtheria toxoid and whole cell pertussis and tetanus toxoid paediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="2061000221109"/>
+		<display value="Diphtheria toxoid and whole cell pertussis and tetanus toxoid pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="871719005"/>
+		<display value="Tick-borne encephalitis vaccine"/>
+	</concept>
+	<concept>
+		<code value="860722004"/>
+		<display value="Junin virus antigen-containing product"/>
+	</concept>
+	<concept>
+		<code value="871889009"/>
+		<display value="Diphtheria and hepatitis B and inactivated poliomyelitis and acellular pertussis vaccine"/>
+	</concept>
+	<concept>
+		<code value="865997008"/>
+		<display value="Hepatitis A adult vaccine"/>
+	</concept>
+	<concept>
+		<code value="871767000"/>
+		<display value="Human papillomavirus 9 vaccine"/>
+	</concept>
+	<concept>
+		<code value="871739009"/>
+		<display value="Human poliovirus antigen only vaccine product"/>
+	</concept>
+	<concept>
+		<code value="981000221107"/>
+		<display value="Pneumococcal vaccine"/>
+	</concept>
+	<concept>
+		<code value="836369007"/>
+		<display value="Virus antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="836401009"/>
+		<display value="Neisseria meningitidis antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="2081000221102"/>
+		<display value="Diphtheria toxoid, Haemophilus influenzae B, hepatitis B surface antigen, acellular pertussis and tetanus toxoid paediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="2081000221102"/>
+		<display value="Diphtheria toxoid, Haemophilus influenzae B, hepatitis B surface antigen, acellular pertussis and tetanus toxoid pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="871886002"/>
+		<display value="Diphtheria and Haemophilus influenzae type B and hepatitis B and pertussis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="1971000221105"/>
+		<display value="Meningococcus A, C, W135 and Y capsular polysaccharide conjugated vaccine"/>
+	</concept>
+	<concept>
+		<code value="840551008"/>
+		<display value="Francisella tularensis antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="871875004"/>
+		<display value="Diphtheria and pertussis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="871720004"/>
+		<display value="Dengue vaccine"/>
+	</concept>
+	<concept>
+		<code value="871838009"/>
+		<display value="Low dose diphtheria and inactivated poliomyelitis and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="836500008"/>
+		<display value="Haemophilus influenzae type B and meningitis C vaccine"/>
+	</concept>
+	<concept>
+		<code value="836397001"/>
+		<display value="Coxiella burnetii antigen-containing vaccine product"/>
+	</concept>
+	<concept>
+		<code value="2201000221100"/>
+		<display value="Inactivated rabies virus vaccine grown in brain tissue"/>
+	</concept>
+	<concept>
+		<code value="2231000221105"/>
+		<display value="Live attenuated measles and rubella vaccine"/>
+	</concept>
+	<concept>
+		<code value="2101000221107"/>
+		<display value="Diphtheria and acellular pertussis and Haemophilus influenzae type B and hepatitis B and poliomyelitis and tetanus pediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="2101000221107"/>
+		<display value="Diphtheria and acellular pertussis and Haemophilus influenzae type B and hepatitis B and poliomyelitis and tetanus paediatric vaccine"/>
+	</concept>
+	<concept>
+		<code value="871827009"/>
+		<display value="Low dose diphtheria and tetanus vaccine"/>
+	</concept>
+	<concept>
+		<code value="836383009"/>
+		<display value="Vibrio cholerae antigen-containing vaccine product"/>
+	</concept>
+		</include>
+	</compose>
+</ValueSet>

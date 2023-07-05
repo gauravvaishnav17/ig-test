@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-alcohol-drinking-status"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-alcohol-drinking-status"/>
+	<version value="20210311"/>
+	<name value="AlcoholDrinkingStatus"/>
+	<title value="Alcohol Drinking Status"/>
+	<status value="draft"/>
+	<date value="2021-03-11"/>
+	<description value="This value set covers : All children (preferred term) of finding relating to alcohol drinking behavior (finding) of the SNOMED CT"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="219006"/>
+				<display value="Current drinker"/>
+			</concept>
+			<concept>
+				<code value="105542008"/>
+				<display value="Non - drinker"/>
+			</concept>
+			<concept>
+				<code value="82581004"/>
+				<display value=" Ex-drinker"/>
+			</concept>
+			<concept>
+				<code value="86933000"/>
+				<display value="Heavy drinker"/>
+			</concept>
+			<concept>
+				<code value="228277002"/>
+				<display value="Light drinker"/>
+			</concept>
+			<concept>
+				<code value="43783005"/>
+				<display value="Moderate drinker"/>
+			</concept>
+			<concept>
+				<code value="28127009"/>
+				<display value="Social drinker"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<filter>
+				<property value="concept"/>
+				<op value="is-a"/>
+				<value value="228273003"/>
+			</filter>
+		</include>
+	</compose>
+</ValueSet>

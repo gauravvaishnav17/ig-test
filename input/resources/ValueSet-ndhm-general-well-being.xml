@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-general-well-being"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-general-well-being"/>
+	<version value="20210311"/>
+	<name value="GeneralWellbeing"/>
+	<title value="General Wellbeing"/>
+	<status value="draft"/>
+	<date value="2021-03-11"/>
+	<description value="This value set covers : All children (preferred term) of General well-being finding (finding) of the SNOMED CT"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="102499006"/>
+				<display value="Fit and well"/>
+			</concept>
+			<concept>
+				<code value="161901003"/>
+				<display value="Chronic sick"/>
+			</concept>
+			<concept>
+				<code value="271795006"/>
+				<display value="Malaise and fatigue"/>
+			</concept>
+			<concept>
+				<code value="248264000"/>
+				<display value="No complaints"/>
+			</concept>
+			<concept>
+				<code value="386705008"/>
+				<display value="Lightheadedness"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<filter>
+				<property value="concept"/>
+				<op value="is-a"/>
+				<value value="365275006"/>
+			</filter>
+		</include>
+	</compose>
+</ValueSet>

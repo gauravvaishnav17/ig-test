@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-mental-status"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-mental-status"/>
+	<version value="20210311"/>
+	<name value="MentalStatus"/>
+	<title value="Mental Status"/>
+	<status value="draft"/>
+	<date value="2021-03-11"/>
+	<description value="This value set covers : All children (preferred term) of finding relating to Emotional state finding (finding) of the SNOMED CT"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="83765003"/>
+				<display value="Boredom"/>
+			</concept>
+			<concept>
+				<code value="45763006"/>
+				<display value="Demoralization"/>
+			</concept>
+			<concept>
+				<code value="708891002"/>
+				<display value="Emotionally stable"/>
+			</concept>
+			<concept>
+				<code value="28669007"/>
+				<display value="Anhedonia"/>
+			</concept>
+			<concept>
+				<code value="48694002"/>
+				<display value="Anxiety"/>
+			</concept>
+			<concept>
+				<code value="102893002"/>
+				<display value="Excitability"/>
+			</concept>
+			<concept>
+				<code value="225012006"/>
+				<display value="Feeling ashamed"/>
+			</concept>
+			<concept>
+				<code value="224973000"/>
+				<display value="Feeling frustrated"/>
+			</concept>
+			<concept>
+				<code value="224973000"/>
+				<display value="Feeling frustrated"/>
+			</concept>
+			<concept>
+				<code value="267076002"/>
+				<display value="Feeling lonely"/>
+			</concept>
+			<concept>
+				<code value="307048004"/>
+				<display value="Feeling isolated"/>
+			</concept>
+			<concept>
+				<code value="162190005"/>
+				<display value="No nervous symptoms"/>
+			</concept>
+			<concept>
+				<code value="225457007"/>
+				<display value=" Feeling suicidal"/>
+			</concept>
+			<concept>
+				<code value="224977004"/>
+				<display value="Feeling upset"/>
+			</concept>
+			<concept>
+				<code value="271596009"/>
+				<display value="Mental distress"/>
+			</concept>
+			<concept>
+				<code value="366979004"/>
+				<display value="Depressed mood"/>
+			</concept>
+			<concept>
+				<code value="1402001"/>
+				<display value="Fear"/>
+			</concept>
+			<concept>
+				<code value="75408008"/>
+				<display value=" Feeling angry"/>
+			</concept>
+			<concept>
+				<code value="55929007"/>
+				<display value="Feeling irritable"/>
+			</concept>
+			<concept>
+				<code value="112080002"/>
+				<display value="Cheerful mood"/>
+			</concept>
+			<concept>
+				<code value="225658008"/>
+				<display value="Mood stable"/>
+			</concept>
+			<concept>
+				<code value="102894008"/>
+				<display value=" Feeling calm"/>
+			</concept>
+			<concept>
+				<code value="425363002"/>
+				<display value="Smiling"/>
+			</concept>
+			<concept>
+				<code value="79015004"/>
+				<display value="Worried"/>
+			</concept>
+			<concept>
+				<code value="53489000"/>
+				<display value="Tension"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<filter>
+				<property value="concept"/>
+				<op value="is-a"/>
+				<value value="106126000"/>
+			</filter>
+		</include>
+	</compose>
+</ValueSet>

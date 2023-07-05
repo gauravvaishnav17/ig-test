@@ -1,0 +1,262 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="ndhm-identifier-type-code" />
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-identifier-type-code" />
+	<version value="3.0.0" />
+	<name value="IdentifierTypeCode" />
+	<title value="Identifier Type Code" />
+	<status value="draft" />
+	<date value="2022-07-14" />
+	<publisher value="National Resource Center for EHR Standards" />
+	<contact>
+		<telecom>
+			<system value="url" />
+			<value value="http://nrces.in/" />
+		</telecom>
+	</contact>
+	<description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose" />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+		</coding>
+	</jurisdiction>
+	<compose>
+		<include>
+			<system value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-identifier-type-code" />
+
+			<concept>
+				<code value="ADN"/>
+				<display value="Adhaar number"/>
+				
+			  </concept>
+			  <concept>
+				<code value="DCF"/>
+				<display value="Domicile Certificate"/>
+				
+			  </concept>
+			  <concept>
+				<code value="CCF"/>
+				<display value="Caste Certificate"/>
+				
+			  </concept>
+			  <concept>
+				<code value="SID"/>
+				<display value="Student ID card"/>
+				
+			  </concept>
+			  <concept>
+				<code value="AL"/>
+				<display value="Arms License"/>
+				
+			  </concept>
+			  <concept>
+				<code value="SCC"/>
+				<display value="Senior Citizen Card"/>
+				
+			  </concept>
+			  <concept>
+				<code value="PSC"/>
+				<display value="Pensioners Card"/>
+				
+			  </concept>
+			  <concept>
+				<code value="FF"/>
+				<display value="Freedom Fighter Card having photo"/>
+				
+			  </concept>
+			  <concept>
+				<code value="KP"/>
+				<display value="Kissan Passbook"/>
+				
+			  </concept>
+			  <concept>
+				<code value="NIN"/>
+				<display value="National Identification Number (NIN)"/>
+				
+			  </concept>
+			  <concept>
+				<code value="NHRR"/>
+				<display value="National Health Resource Repository (NHRR) ID"/>
+				
+			  </concept>
+			  <concept>
+				<code value="PMJAY"/>
+				<display value="Pradhan Mantri Jan Aarogya Yojana (PMJAY) ID"/>
+				
+			  </concept>
+			  <concept>
+				<code value="ROHINI"/>
+				<display
+						 value="Registry of Hospitals in Network of Insurance (ROHINI) ID"/>
+				
+			  </concept>
+			  <concept>
+				<code value="ABHA"/>
+				<display value="Ayushman Bharat Health Account (ABHA) ID"/>
+				
+			  </concept>
+			  <concept>
+				<code value="CGHS"/>
+				<display value="Central Government Health Scheme (CGHS) ID"/>
+				
+			  </concept>
+			  <concept>
+				<code value="ECHS"/>
+				<display value="Ex-servicemen Contributory Health Scheme (ECHS) ID"/>
+				
+			  </concept>
+			  <concept>
+				<code value="HPID"/>
+				<display value="Healthcare Professional ID (HPID)"/>
+				
+			  </concept>
+			  <concept>
+				<code value="RCN"/>
+				<display value="Ration Card Number"/>
+				
+			  </concept>
+			  <concept>
+				<code value="VID"/>
+				<display value="Voter ID"/>
+				
+			  </concept>
+			  <concept>
+				<code value="BPL"/>
+				<display value="BPL Card Number"/>
+				
+			  </concept>
+			  <concept>
+				<code value="BIC"/>
+				<display value="Border ID card"/>
+				
+			  </concept>
+			  <concept>
+				<code value="SLR"/>
+				<display value="Sri Lankan Refugees Identity Card"/>
+				
+			  </concept>
+			  <concept>
+				<code value="TRC"/>
+				<display value="Tibetan Refugee Card"/>
+				
+			  </concept>
+			  <concept>
+				<code value="OIN"/>
+				<display value="Other identifier"/>
+				
+			  </concept>
+			  <concept>
+				<code value="HIN"/>
+				<display value="Health ID issued by NDHM"/>
+				
+			  </concept>
+			  <concept>
+				<code value="HPIN"/>
+				<display value="Health Practitioner ID issued by NDHM"/>
+				
+			  </concept>
+			  <concept>
+				<code value="ODN"/>
+				<display value="Other document"/>
+				
+			  </concept>
+			  <concept>
+				<code value="CFG"/>
+				<display
+						 value="Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal"/>
+				
+			  </concept>
+			  <concept>
+				<code value="CFE"/>
+				<display
+						 value="Certificate of address with photo from Govt. recognized educational institution (for students only)"/>
+				
+			  </concept>
+			  <concept>
+				<code value="CFP"/>
+				<display
+						 value="Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)"/>
+				
+			  </concept>
+			  <concept>
+				<code value="IGA"/>
+				<display
+						 value="Identifier(s) assigned by central/state or local Government authority"/>
+				
+			  </concept>
+			  <concept>
+				<code value="CFUA"/>
+				<display
+						 value="Defence Personnel - Armed Forces ;Certificate from Competent Unit Authority"/>
+				
+			  </concept>
+			  <concept>
+				<code value="CFC"/>
+				<display
+						 value="Fresh Certificate carrying the identity and address of the person(s) concerned issued by the Lt. Colonel"/>
+				
+			  </concept>
+
+
+		</include>
+		
+		<include> 
+			<system value="http://terminology.hl7.org/CodeSystem/v2-0203"/> 
+			<concept> 
+			  <code value="DL"/> 
+			</concept> 
+			<concept> 
+			  <code value="PPN"/> 
+			</concept> 
+			<concept> 
+			  <code value="BRN"/> 
+			</concept> 
+			<concept> 
+			  <code value="MR"/> 
+			</concept> 
+			<concept> 
+			  <code value="MCN"/> 
+			</concept> 
+			<concept> 
+			  <code value="EN"/> 
+			</concept> 
+			<concept> 
+			  <code value="TAX"/> 
+			</concept> 
+			<concept> 
+			  <code value="NIIP"/> 
+			</concept> 
+			<concept> 
+			  <code value="PRN"/> 
+			</concept> 
+			<concept> 
+			  <code value="MD"/> 
+			</concept> 
+			<concept> 
+			  <code value="DR"/> 
+			</concept> 
+			<concept> 
+			  <code value="ACSN"/> 
+			</concept> 
+			<concept> 
+			  <code value="UDI"/> 
+			</concept> 
+			<concept> 
+			  <code value="SNO"/> 
+			</concept> 
+			<concept> 
+			  <code value="SB"/> 
+			</concept> 
+			<concept> 
+			  <code value="PLAC"/> 
+			</concept> 
+			<concept> 
+			  <code value="FILL"/> 
+			</concept> 
+			<concept> 
+			  <code value="JHN"/> 
+			</concept> 
+		  </include>
+		
+	</compose>
+</ValueSet>

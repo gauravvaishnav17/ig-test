@@ -1,0 +1,70 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="ndhm-insuranceplan-type" />
+	<url value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-insuranceplan-type" />
+	<version value="3.0.0" />
+	<name value="InsurancePlanType" />
+	<title value="InsurancePlan Type" />
+	<status value="draft" />
+	<date value="2023-06-28" />
+	<publisher value="National Resource Center for EHR Standards" />
+	<contact>
+		<telecom>
+			<system value="url" />
+			<value value="http://nrces.in/" />
+		</telecom>
+	</contact>
+	<description value="This CodeSystem is composed of codes that are used to classify the various types of InsurancePlans." />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+		</coding>
+	</jurisdiction>
+	<caseSensitive value="true" />
+	<content value="complete" />
+	<concept>
+		<code value="01" />
+		<display value="Hospitalisation Indemnity Policy" />
+	</concept>
+	<concept>
+		<code value="02" />
+		<display value="Hospital Cash Plan" />
+	</concept>
+	<concept>
+		<code value="03" />
+		<display value="Critical Illness Cover -Indemnity" />
+	</concept>
+	<concept>
+		<code value="04" />
+		<display value="Critical Illness Cover - Benefits" />
+	</concept>
+	<concept>
+		<code value="05" />
+		<display value="Out Patient Policy" />
+	</concept>
+	<concept>
+		<code value="07" />
+		<display value="Universal Health Policy" />
+	</concept>
+	<concept>
+		<code value="08" />
+		<display value="Micro insurance Policy" />
+	</concept>
+	<concept>
+		<code value="09" />
+		<display value="Package Policy (covering more than one type of health above)" />
+	</concept>
+	<concept>
+		<code value="10" />
+		<display value="Hybrid Policy (covering other than health also)" />
+	</concept>
+
+	<concept>
+		<code value="90" />
+		<display value="Mass policy" />
+	</concept>
+	<concept>
+		<code value="99" />
+		<display value="Any Other Product Type" />
+	</concept>
+</CodeSystem>

@@ -1,0 +1,104 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="ndhm-coverage-type" />
+	<url value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-coverage-type" />
+	<version value="3.0.0" />
+	<name value="CoverageType" />
+	<title value="Coverage Type" />
+	<status value="draft" />
+	<date value="2023-06-28" />
+	<publisher value="National Resource Center for EHR Standards" />
+	<contact>
+		<telecom>
+			<system value="url" />
+			<value value="http://nrces.in/" />
+		</telecom>
+	</contact>
+	<description value="This CodeSystem consists of a set of codes that can be utilized to categorize the insurance coverage type." />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+		</coding>
+	</jurisdiction>
+	<caseSensitive value="true" />
+	<content value="complete" />
+
+	<concept>
+		<code value="00" />
+		<display value="In Patient Hospitalization" />
+	</concept>
+	<concept>
+		<code value="01" />
+		<display value="Pre Hospitalization" />
+	</concept>
+	<concept>
+		<code value="02" />
+		<display value="Post Hospitalization" />
+	</concept>
+	<concept>
+		<code value="03" />
+		<display value="Local Ambulance" />
+	</concept>
+	<concept>
+		<code value="04" />
+		<display value="Living Donor Medical Costs" />
+	</concept>
+
+	<concept>
+		<code value="05" />
+		<display value="Annual Preventive Health Check up" />
+	</concept>
+	<concept>
+		<code value="06" />
+		<display value="Mental Illness Treatment" />
+	</concept>
+	<concept>
+		<code value="07" />
+		<display value="Rehabiliation" />
+	</concept>
+	<concept>
+		<code value="08" />
+		<display value="Morder Treatment method" />
+	</concept>
+	<concept>
+		<code value="09" />
+		<display value="Out patient" />
+	</concept>
+	<concept>
+		<code value="10" />
+		<display value="Lab pathelogy" />
+	</concept>
+
+	<concept>
+		<code value="11" />
+		<display value="Drugs and Medicines" />
+	</concept>
+
+	<concept>
+		<code value="12" />
+		<display value="Dental" />
+	</concept>
+
+	<concept>
+		<code value="13" />
+		<display value="eye" />
+	</concept>
+
+	<concept>
+		<code value="14" />
+		<display value="Day Care" />
+	</concept>
+
+	<concept>
+		<code value="15" />
+		<display value="Daily-cash" />
+	</concept>
+
+	<concept>
+		<code value="16" />
+		<display value="Major illness/critical illness" />
+	</concept>
+
+
+
+</CodeSystem>

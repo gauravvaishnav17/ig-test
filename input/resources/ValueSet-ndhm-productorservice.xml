@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-productorservice" />
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-productorservice" />
+	<version value="20220714" />
+	<name value="ProductorService" />
+	<title value="ProductorService" />
+	<status value="draft" />
+	<date value="2022-07-14" />
+	<description value="This value set includes codes for product or service from SNOMEDCT" />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+			<display value="India" />
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement" />
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="416113008" />
+				<display value="Febrile disorder" />
+			</concept>
+			<concept>
+				<code value="91302008" />
+				<display value="Sepsis" />
+			</concept>
+			<concept>
+				<code value="76571007" />
+				<display value="Septic shock" />
+			</concept>
+			<concept>
+				<code value="61462000" />
+				<display value="Malaria" />
+			</concept>
+			<concept>
+				<code value="38362002" />
+				<display value="Dengue" />
+			</concept>
+			<concept>
+				<code value="20927009" />
+				<display value="Dengue hemorrhagic fever" />
+			</concept>
+			<concept>
+				<code value="409671005" />
+				<display value="Dengue shock syndrome" />
+			</concept>
+			<concept>
+				<code value="111864006" />
+				<display value="Chikungunya fever" />
+			</concept>
+			<concept>
+				<code value="4834000" />
+				<display value="Typhoid fever" />
+			</concept>
+			<concept>
+				<code value="81000119104" />
+				<display value="Symptomatic human immunodeficiency virus infection" />
+			</concept>
+			<concept>
+				<code value="77377001" />
+				<display value="Leptospirosis" />
+			</concept>
+			<concept>
+				<code value="236071009" />
+				<display value="Chronic diarrhea" />
+			</concept>
+			<concept>
+				<code value="409966000" />
+				<display value="Acute diarrhea" />
+			</concept>
+			<concept>
+				<code value="46799006" />
+				<display value="Dysenteric diarrhea" />
+			</concept>
+			<concept>
+				<code value="57412004" />
+				<display value="Acute viral hepatitis" />
+			</concept>
+			<concept>
+				<code value="76783007" />
+				<display value="Chronic hepatitis" />
+			</concept>
+			<concept>
+				<code value="27916005" />
+				<display value="Abscess of liver" />
+			</concept>
+			<concept>
+				<code value="186803007" />
+				<display value="Visceral leishmaniasis" />
+			</concept>
+			<concept>
+				<code value="233604007" />
+				<display value="Pneumonia" />
+			</concept>
+			<concept>
+				<code value="312682007" />
+				<display value="Empyema" />
+			</concept>
+			<concept>
+				<code value="27916005" />
+				<display value="Abscess of liver" />
+			</concept>
+			<concept>
+				<code value="67256000" />
+				<display value="Tuberculosis of pericardium" />
+			</concept>
+			<concept>
+				<code value="186182003" />
+				<display value="Tuberculosis of pleura" />
+			</concept>
+			<concept>
+				<code value="68566005" />
+				<display value="Urinary tract infectious disease" />
+			</concept>
+			<concept>
+				<code value="34476008" />
+				<display value="Viral encephalitis" />
+			</concept>
+			<concept>
+				<code value="48245008" />
+				<display value="Bacterial arthritis" />
+			</concept>
+			<concept>
+				<code value="19824006" />
+				<display value="Infection of skin and/or subcutaneous tissue" />
+			</concept>
+			<concept>
+				<code value="7520000" />
+				<display value="Pyrexia of unknown origin" />
+			</concept>
+			<concept>
+				<code value="12295008" />
+				<display value="Bronchiectasis" />
+			</concept>
+			<concept>
+				<code value="10509002" />
+				<display value="Acute bronchitis" />
+			</concept>
+			<concept>
+				<code value="195951007" />
+				<display value="Acute exacerbation of chronic obstructive airways disease" />
+			</concept>
+			<concept>
+				<code value="233703007" />
+				<display value="Interstitial lung disease" />
+			</concept>
+			<concept>
+				<code value="301183007" />
+				<display value="Bacterial endocarditis" />
+			</concept>
+			<concept>
+				<code value="86348002" />
+				<display value="Mycotic endocarditis" />
+			</concept>
+			<concept>
+				<code value="31996006" />
+				<display value="Vasculitis" />
+			</concept>
+			<concept>
+				<code value="197456007" />
+				<display value="Acute pancreatitis" />
+			</concept>
+			<concept>
+				<code value="235494005" />
+				<display value="Chronic pancreatitis" />
+			</concept>
+			<concept>
+				<code value="389026000" />
+				<display value="Ascites" />
+			</concept>
+			<concept>
+				<code value="47000000" />
+				<display value="Acute transverse myelitis" />
+			</concept>
+			<concept>
+				<code value="49436004" />
+				<display value="Atrial fibrillation" />
+			</concept>
+			<concept>
+				<code value="35304003" />
+				<display value="Cardiac tamponade" />
+			</concept>
+			<concept>
+				<code value="42343007" />
+				<display value="Congestive heart failure" />
+			</concept>
+			<concept>
+				<code value="708038006" />
+				<display value="Acute exacerbation of asthma" />
+			</concept>
+			<concept>
+				<code value="733858005" />
+				<display value="Acute severe refractory exacerbation of asthma" />
+			</concept>
+			<concept>
+				<code value="233765002" />
+				<display value="Respiratory failure without hypercapnia" />
+			</concept>
+			<concept>
+				<code value="709109004" />
+				<display value="Hypercapnic respiratory failure" />
+			</concept>
+			<concept>
+				<code value="409622000" />
+				<display value="Respiratory failure" />
+			</concept>
+			<concept>
+				<code value="363732003" />
+				<display value="Addison's disease" />
+			</concept>
+			<concept>
+				<code value="7093002" />
+				<display value="Renal colic" />
+			</concept>
+			<concept>
+				<code value="42399005" />
+				<display value="Renal failure syndrome" />
+			</concept>
+			<concept>
+				<code value="128613002" />
+				<display value="Seizure disorder" />
+			</concept>
+			<concept>
+				<code value="230456007" />
+				<display value="Status epilepticus" />
+			</concept>
+			<concept>
+				<code value="230690007" />
+				<display value="Cerebrovascular accident" />
+			</concept>
+			<concept>
+				<code value="192759008" />
+				<display value="Cerebral venous sinus thrombosis" />
+			</concept>
+			<concept>
+				<code value="230690007" />
+				<display value="Cerebrovascular accident" />
+			</concept>
+			<concept>
+				<code value="422504002" />
+				<display value="Ischemic stroke" />
+			</concept>
+			<concept>
+				<code value="274100004" />
+				<display value="Cerebral hemorrhage" />
+			</concept>
+			<concept>
+				<code value="24700007" />
+				<display value="Multiple sclerosis" />
+			</concept>
+			<concept>
+				<code value="74772000" />
+				<display value="Meningomyelitis" />
+			</concept>
+			<concept>
+				<code value="25044007" />
+				<display value="Neuromyelitis optica" />
+			</concept>
+			<concept>
+				<code value="16631009" />
+				<display value="Transverse myelopathy syndrome" />
+			</concept>
+			<concept>
+				<code value="230745008" />
+				<display value="Hydrocephalus" />
+			</concept>
+			<concept>
+				<code value="21263006" />
+				<display value="Myxedema coma" />
+			</concept>
+			<concept>
+				<code value="29028009" />
+				<display value="Thyrotoxic crisis" />
+			</concept>
+			<concept>
+				<code value="90560007" />
+				<display value="Inflammatory disorder due to increased blood urate level" />
+			</concept>
+			<concept>
+				<code value="36118008" />
+				<display value="Pneumothorax" />
+			</concept>
+			<concept>
+				<code value="257277002" />
+				<display value="Combined disorder of muscle AND peripheral nerve" />
+			</concept>
+			<concept>
+				<code value="302866003" />
+				<display value="Hypoglycemia" />
+			</concept>
+			<concept>
+				<code value="280137006" />
+				<display value="Diabetic foot" />
+			</concept>
+			<concept>
+				<code value="420422005" />
+				<display value="Ketoacidosis due to diabetes mellitus" />
+			</concept>
+			<concept>
+				<code value="66931009" />
+				<display value="Hypercalcemia" />
+			</concept>
+			<concept>
+				<code value="5291005" />
+				<display value="Hypocalcemia" />
+			</concept>
+			<concept>
+				<code value="89627008" />
+				<display value="Hyponatremia" />
+			</concept>
+			<concept>
+				<code value="771115008" />
+				<display value="Hypernatremia" />
+			</concept>
+			<concept>
+				<code value="421966007" />
+				<display value="Non-ketotic non-hyperosmolar coma due to diabetes mellitus" />
+			</concept>
+			<concept>
+				<code value="78975002" />
+				<display value="Malignant essential hypertension" />
+			</concept>
+			<concept>
+				<code value="132721000119104" />
+				<display value="Hypertensive emergency" />
+			</concept>
+			<concept>
+				<code value="127040003" />
+				<display value="Sickle cell-hemoglobin SS disease" />
+			</concept>
+			<concept>
+				<code value="39579001" />
+				<display value="Anaphylaxis" />
+			</concept>
+			<concept>
+				<code value="52072009" />
+				<display value="Heat stroke" />
+			</concept>
+			<concept>
+				<code value="55464009" />
+				<display value="Systemic lupus erythematosus" />
+			</concept>
+			<concept>
+				<code value="40956001" />
+				<display value="Guillain-Barré syndrome" />
+			</concept>
+			<concept>
+				<code value="61288004" />
+				<display value="Poisoning caused by venomous snake" />
+			</concept>
+			<concept>
+				<code value="8260003" />
+				<display value="Organophosphate poisoning" />
+			</concept>
+			<concept>
+				<code value="75478009" />
+				<display value="Poisoning" />
+			</concept>
+			<concept>
+				<code value="302497006" />
+				<display value="Hemodialysis" />
+			</concept>
+			<concept>
+				<code value="71192002" />
+				<display value="Peritoneal dialysis" />
+			</concept>
+			<concept>
+				<code value="20720000" />
+				<display value="Plasmapheresis" />
+			</concept>
+			<concept>
+				<code value="33389009" />
+				<display value="Transfusion of whole blood" />
+			</concept>
+			<concept>
+				<code value="54790000" />
+				<display value="Transfusion of blood component" />
+			</concept>
+			<concept>
+				<code value="363679005" />
+				<display value="Imaging" />
+			</concept>
+			<concept>
+				<code value="252416005" />
+				<display value="Histopathology test" />
+			</concept>
+			<concept>
+				<code value="86273004" />
+				<display value="Biopsy" />
+			</concept>
+			<concept>
+				<code value="45900003" />
+				<display value="Esophagectomy" />
+			</concept>
+			<concept>
+				<code value="307332009" />
+				<display value="Esophagectomy and colonic interposition" />
+			</concept>
+			<concept>
+				<code value="708987006" />
+				<display value="Laparoscopic total gastrectomy" />
+			</concept>
+			<concept>
+				<code value="26452005" />
+				<display value="Total gastrectomy" />
+			</concept>
+			<concept>
+				<code value="54956002" />
+				<display value="Gastrostomy" />
+			</concept>
+			<concept>
+				<code value="72971003" />
+				<display value="Gastrojejunostomy with vagotomy" />
+			</concept>
+			<concept>
+				<code value="46381000" />
+				<display value="Truncal vagotomy with pyloroplasty" />
+			</concept>
+			<concept>
+				<code value="287811008" />
+				<display value="Perforated peptic ulcer closure" />
+			</concept>
+			<concept>
+				<code value="235674005" />
+				<display value="Perforation of stomach" />
+			</concept>
+			<concept>
+				<code value="270909006" />
+				<display value="Duodenal perforation" />
+			</concept>
+			<concept>
+				<code value="363742001" />
+				<display value="Pyloroplasty" />
+			</concept>
+			<concept>
+				<code value="173788005" />
+				<display value="Pyloromyotomy" />
+			</concept>
+			<concept>
+				<code value="49245001" />
+				<display value="Bypass gastrojejunostomy" />
+			</concept>
+			<concept>
+				<code value="238280007" />
+				<display value="Drainage of peritoneal pseudocyst" />
+			</concept>
+			<concept>
+				<code value="238275003" />
+				<display value="Drainage of peritoneal cyst" />
+			</concept>
+			<concept>
+				<code value="75389003" />
+				<display value="Pancreaticocystogastrostomy" />
+			</concept>
+			<concept>
+				<code value="234321000" />
+				<display value="Splenic cystogastrostomy" />
+			</concept>
+			<concept>
+				<code value="234322007" />
+				<display value="Splenic cystojejunostomy" />
+			</concept>
+			<concept>
+				<code value="238278001" />
+				<display value="Peritoneal cystojejunostomy" />
+			</concept>
+			<concept>
+				<code value="238279009" />
+				<display value="Peritoneal cystogastrostomy" />
+			</concept>
+			<concept>
+				<code value="174740002" />
+				<display value="Open cystogastrotomy of pancreas" />
+			</concept>
+			<concept>
+				<code value="62937006" />
+				<display value="Feeding enterostomy of jejunum" />
+			</concept>
+			<concept>
+				<code value="301784005" />
+				<display value="Ileostomy operation" />
+			</concept>
+			<concept>
+				<code value="67389003" />
+				<display value="Diverticulectomy of duodenum" />
+			</concept>
+			<concept>
+				<code value="61218006" />
+				<display value="Excision of Meckel's diverticulum" />
+			</concept>
+			<concept>
+				<code value="80146002" />
+				<display value="Excision of appendix" />
+			</concept>
+			<concept>
+				<code value="6025007" />
+				<display value="Laparoscopic appendectomy" />
+			</concept>
+			<concept>
+				<code value="47693006" />
+				<display value="Rupture of appendix" />
+			</concept>
+			<concept>
+				<code value="174052001" />
+				<display value="Drainage of appendix abscess" />
+			</concept>
+			<concept>
+				<code value="26390003" />
+				<display value="Total colectomy" />
+			</concept>
+			<concept>
+				<code value="787874000" />
+				<display value="Laparoscopic total colectomy" />
+			</concept>
+			<concept>
+				<code value="359571009" />
+				<display value="Right colectomy" />
+			</concept>
+			<concept>
+				<code value="50774009" />
+				<display value="Laparoscopic-assisted right colectomy" />
+			</concept>
+			<concept>
+				<code value="82619000" />
+				<display value="Left colectomy" />
+			</concept>
+			<concept>
+				<code value="41330009" />
+				<display value="Laparoscopic-assisted left colectomy" />
+			</concept>
+			<concept>
+				<code value="398740003" />
+				<display value="Colostomy" />
+			</concept>
+			<concept>
+				<code value="1805005" />
+				<display value="Surgical closure of stoma" />
+			</concept>
+			<concept>
+				<code value="84604002" />
+				<display value="Sigmoid colectomy" />
+			</concept>
+			<concept>
+				<code value="174286001" />
+				<display value="Perineal operations for rectal prolapse" />
+			</concept>
+			<concept>
+				<code value="73921006" />
+				<display value="Repair of rectal prolapse by abdominal approach" />
+			</concept>
+			<concept>
+				<code value="440032004" />
+				<display value="Laparoscopic fixation of prolapse of rectum" />
+			</concept>
+			<concept>
+				<code value="274031008" />
+				<display value="Rectal polypectomy" />
+			</concept>
+			<concept>
+				<code value="4558008" />
+				<display value="Anterior resection of rectum" />
+			</concept>
+			<concept>
+				<code value="90527009" />
+				<display value="Laparoscopic-assisted anterior resection of rectum" />
+			</concept>
+			<concept>
+				<code value="315328007" />
+				<display value="Anterior resection of rectum with anastomosis" />
+			</concept>
+			<concept>
+				<code value="392027008" />
+				<display value="Anal fissurectomy" />
+			</concept>
+			<concept>
+				<code value="24496007" />
+				<display value="Hemorrhoidectomy" />
+			</concept>
+			<concept>
+				<code value="412737002" />
+				<display value="Stapling of hemorrhoid" />
+			</concept>
+			<concept>
+				<code value="174396007" />
+				<display value="Pilonidal sinus operation" />
+			</concept>
+			<concept>
+				<code value="107808005" />
+				<display value="Accessory sinus excision" />
+			</concept>
+			<concept>
+				<code value="302392001" />
+				<display value="Curettage of sinus" />
+			</concept>
+			<concept>
+				<code value="74770008" />
+				<display value="Exploratory laparotomy" />
+			</concept>
+			<concept>
+				<code value="177916006" />
+				<display value="Resuture of burst abdomen" />
+			</concept>
+			<concept>
+				<code value="107963000" />
+				<display value="Liver excision" />
+			</concept>
+			<concept>
+				<code value="708590009" />
+				<display value="Laparoscopic wedge resection of liver" />
+			</concept>
+			<concept>
+				<code value="708589000" />
+				<display value="Laparoscopic resection of segment of liver" />
+			</concept>
+			<concept>
+				<code value="38102005" />
+				<display value="Cholecystectomy" />
+			</concept>
+			<concept>
+				<code value="45993005" />
+				<display value="Cholecystectomy with exploration of common duct" />
+			</concept>
+			<concept>
+				<code value="45595009" />
+				<display value="Laparoscopic cholecystectomy" />
+			</concept>
+			<concept>
+				<code value="67557008" />
+				<display value="Laparoscopic cholecystectomy with exploration of common duct" />
+			</concept>
+			<concept>
+				<code value="38102005" />
+				<display value="Cholecystectomy" />
+			</concept>
+			<concept>
+				<code value="45595009" />
+				<display value="Laparoscopic cholecystectomy" />
+			</concept>
+			<concept>
+				<code value="66361005" />
+				<display value="Excision of choledochal cyst" />
+			</concept>
+			<concept>
+				<code value="234319005" />
+				<display value="Splenectomy" />
+			</concept>
+			<concept>
+				<code value="174776001" />
+				<display value="Total splenectomy" />
+			</concept>
+			<concept>
+				<code value="314118002" />
+				<display value="Laparoscopic total splenectomy" />
+			</concept>
+			<concept>
+				<code value="446408009" />
+				<display value="Laparoscopic excision of part of spleen" />
+			</concept>
+			<concept>
+				<code value="173747005" />
+				<display value="Roux-en-Y gastrojejunostomy" />
+			</concept>
+			<concept>
+				<code value="91516004" />
+				<display value="Distal subtotal pancreatectomy with pancreaticojejunostomy" />
+			</concept>
+			<concept>
+				<code value="116241004" />
+				<display value="Pancreaticoduodenectomy" />
+			</concept>
+			<concept>
+				<code value="20767001" />
+				<display value="Shunt of portal vein to vena cava" />
+			</concept>
+			<concept>
+				<code value="175793006" />
+				<display value="Mesocaval shunt" />
+			</concept>
+			<concept>
+				<code value="238299003" />
+				<display value="Excision of mesenteric cyst" />
+			</concept>
+			<concept>
+				<code value="92433007" />
+				<display value="Benign neoplasm of retroperitoneum" />
+			</concept>
+			<concept>
+				<code value="608797008" />
+				<display value="Open repair of inguinal hernia" />
+			</concept>
+			<concept>
+				<code value="15018006" />
+				<display value="Laparoscopic repair of inguinal hernia" />
+			</concept>
+			<concept>
+				<code value="608796004" />
+				<display value="Open repair of femoral hernia" />
+			</concept>
+			<concept>
+				<code value="608789001" />
+				<display value="Laparoscopic repair of femoral hernia" />
+			</concept>
+			<concept>
+				<code value="608790005" />
+				<display value="Laparoscopic repair of obturator hernia" />
+			</concept>
+			<concept>
+				<code value="238184006" />
+				<display value="Repair of epigastric hernia" />
+			</concept>
+			<concept>
+				<code value="44946007" />
+				<display value="Repair of umbilical hernia" />
+			</concept>
+			<concept>
+				<code value="9877001" />
+				<display value="Repair of paraumbilical hernia" />
+			</concept>
+			<concept>
+				<code value="15694008" />
+				<display value="Repair of spigelian hernia" />
+			</concept>
+			<concept>
+				<code value="238187004" />
+				<display value="Repair of incisional hernia" />
+			</concept>
+			<concept>
+				<code value="9292007" />
+				<display value="Esophageal hiatus hernia repair" />
+			</concept>
+			<concept>
+				<code value="413181005" />
+				<display value="Laparoscopic repair of hiatus hernia" />
+			</concept>
+			<concept>
+				<code value="359890009" />
+				<display value="Fundoplication" />
+			</concept>
+			<concept>
+				<code value="359893006" />
+				<display value="Total fundoplication" />
+			</concept>
+			<concept>
+				<code value="78656005" />
+				<display value="Laparoscopic fundoplication" />
+			</concept>
+			<concept>
+				<code value="21810005" />
+				<display value="Excision of lesion of scrotum" />
+			</concept>
+			<concept>
+				<code value="236326007" />
+				<display value="Excision of multiple scrotal sebaceous cysts" />
+			</concept>
+			<concept>
+				<code value="236347006" />
+				<display value="Hydrocele operation" />
+			</concept>
+			<concept>
+				<code value="176481007" />
+				<display value="Excision of cyst of epididymis" />
+			</concept>
+			<concept>
+				<code value="176490000" />
+				<display value="Reversal of vasectomy" />
+			</concept>
+			<concept>
+				<code value="236334001" />
+				<display value="Total orchidectomy" />
+			</concept>
+			<concept>
+				<code value="178286005" />
+				<display value="Block dissection of inguinal lymph nodes" />
+			</concept>
+			<concept>
+				<code value="112851007" />
+				<display value="Full thickness excision of lip, reconstruction with local flap" />
+			</concept>
+			<concept>
+				<code value="20418004" />
+				<display value="Wedge resection" />
+			</concept>
+			<concept>
+				<code value="173225009" />
+				<display value="Wedge excision of lip" />
+			</concept>
+			<concept>
+				<code value="39562007" />
+				<display value="Vermilionectomy" />
+			</concept>
+			<concept>
+				<code value="173218002" />
+				<display value="Excision of vermilion border and advancement of lip mucosa" />
+			</concept>
+			<concept>
+				<code value="359703006" />
+				<display value="Total glossectomy" />
+			</concept>
+			<concept>
+				<code value="252416005" />
+				<display value="Histopathology test" />
+			</concept>
+			<concept>
+				<code value="177124000" />
+				<display value="Biopsy of tongue" />
+			</concept>
+			<concept>
+				<code value="173357008" />
+				<display value="Removal of lesion of tongue" />
+			</concept>
+			<concept>
+				<code value="234246002" />
+				<display value="Selective neck dissection of cervical lymph nodes" />
+			</concept>
+			<concept>
+				<code value="59687004" />
+				<display value="Excision of laryngeal polyp" />
+			</concept>
+			<concept>
+				<code value="308030005" />
+				<display value="Microlaryngoscopic vocal cord polypectomy" />
+			</concept>
+			<concept>
+				<code value="173490007" />
+				<display value="Excision of lesion of submandibular gland" />
+			</concept>
+			<concept>
+				<code value="45685007" />
+				<display value="Radical neck dissection" />
+			</concept>
+			<concept>
+				<code value="178347009" />
+				<display value="Excision of branchial cyst" />
+			</concept>
+			<concept>
+				<code value="233401008" />
+				<display value="Excision of carotid body tumor" />
+			</concept>
+			<concept>
+				<code value="302338000" />
+				<display value="Lobectomy of thyroid gland" />
+			</concept>
+			<concept>
+				<code value="24443003" />
+				<display value="Total thyroidectomy" />
+			</concept>
+			<concept>
+				<code value="237486002" />
+				<display value="Total thyroidectomy with cervical lymph node dissection" />
+			</concept>
+			<concept>
+				<code value="287258006" />
+				<display value="Parathyroid adenoma excision" />
+			</concept>
+			<concept>
+				<code value="399750009" />
+				<display value="Excision of thymus" />
+			</concept>
+			<concept>
+				<code value="57071006" />
+				<display value="Sympathectomy" />
+			</concept>
+			<concept>
+				<code value="392021009" />
+				<display value="Lumpectomy of breast" />
+			</concept>
+			<concept>
+				<code value="172043006" />
+				<display value="Simple mastectomy" />
+			</concept>
+			<concept>
+				<code value="406505007" />
+				<display value="Modified radical mastectomy" />
+			</concept>
+			<concept>
+				<code value="384723003" />
+				<display value="Radical mastectomy" />
+			</concept>
+			<concept>
+				<code value="172106007" />
+				<display value="Excision of fistula of mammary duct" />
+			</concept>
+			<concept>
+				<code value="238356005" />
+				<display value="Intercostal drain removal" />
+			</concept>
+			<concept>
+				<code value="177789001" />
+				<display value="Excision of rib and open drainage of pleural cavity" />
+			</concept>
+			<concept>
+				<code value="238332006" />
+				<display value="Total thoracoplasty" />
+			</concept>
+			<concept>
+				<code value="26411001" />
+				<display value="Decortication of lung and parietal pleurectomy" />
+			</concept>
+			<concept>
+				<code value="75935006" />
+				<display value="Thoracoscopic lobectomy of lung" />
+			</concept>
+			<concept>
+				<code value="173171007" />
+				<display value="Lobectomy of lung" />
+			</concept>
+			<concept>
+				<code value="444188003" />
+				<display value="Thoracoscopic wedge resection of lung" />
+			</concept>
+			<concept>
+				<code value="284181007" />
+				<display value="Incision and drainage of abscess" />
+			</concept>
+			<concept>
+				<code value="274068006" />
+				<display value="Excision of lipoma" />
+			</concept>
+			<concept>
+				<code value="428297005" />
+				<display value="Excision of cyst" />
+			</concept>
+			<concept>
+				<code value="440258006" />
+				<display value="Excision of skin" />
+			</concept>
+			<concept>
+				<code value="312775003" />
+				<display value="Debridement of ulcer" />
+			</concept>
+			<concept>
+				<code value="771225007" />
+				<display value="Reconstruction using free flap" />
+			</concept>
+			<concept>
+				<code value="119561005" />
+				<display value="Grafting procedure" />
+			</concept>
+			<concept>
+				<code value="771225007" />
+				<display value="Reconstruction using free flap" />
+			</concept>
+			<concept>
+				<code value="265675003" />
+				<display value="Split thickness graft of skin to skin" />
+			</concept>
+			<concept>
+				<code value="265675003" />
+				<display value="Split thickness graft of skin to skin" />
+			</concept>
+			<concept>
+				<code value="265675003" />
+				<display value="Split thickness graft of skin to skin" />
+			</concept>
+			<concept>
+				<code value="304039000" />
+				<display value="Skin flap operation" />
+			</concept>
+			<concept>
+				<code value="264983002" />
+				<display value="Transfer of tendon" />
+			</concept>
+			<concept>
+				<code value="107996003" />
+				<display value="Lymphatic system excision" />
+			</concept>
+			<concept>
+				<code value="27929005" />
+				<display value="Arteriovenous fistulization" />
+			</concept>
+			<concept>
+				<code value="717285003" />
+				<display value="Vascular system care" />
+			</concept>
+			<concept>
+				<code value="21911005" />
+				<display value="Biopsy of lymph node" />
+			</concept>
+			<concept>
+				<code value="447338009" />
+				<display value="Aspiration of endometrium" />
+			</concept>
+			<concept>
+				<code value="171149006" />
+				<display value="Screening for malignant neoplasm of cervix" />
+			</concept>
+			<concept>
+				<code value="50796003" />
+				<display value="Cervical biopsy" />
+			</concept>
+			<concept>
+				<code value="274942001" />
+				<display value="Biopsy of vulva" />
+			</concept>
+			<concept>
+				<code value="87515005" />
+				<display value="Ileostomy management and care" />
+			</concept>
+			<concept>
+				<code value="25953003" />
+				<display value="Colostomy management and care" />
+			</concept>
+			<concept>
+				<code value="10849003" />
+				<display value="Removal of foreign body" />
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

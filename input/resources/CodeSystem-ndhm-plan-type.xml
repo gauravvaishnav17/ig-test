@@ -1,0 +1,62 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="ndhm-plan-type" />
+	<url value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-plan-type" />
+	<version value="3.0.0" />
+	<name value="PlanType" />
+	<title value="Plan Type" />
+	<status value="draft" />
+	<date value="2023-06-28" />
+	<publisher value="National Resource Center for EHR Standards" />
+	<contact>
+		<telecom>
+			<system value="url" />
+			<value value="http://nrces.in/" />
+		</telecom>
+	</contact>
+	<description value="This CodeSystem contains a set of codes that can be utilized to categorize the type of insurance plans." />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+		</coding>
+	</jurisdiction>
+	<caseSensitive value="true" />
+	<content value="complete" />
+	<concept>
+		<code value="00" />
+		<display value="Individual" />
+	</concept>
+	<concept>
+		<code value="01" />
+		<display value="Individual Floater" />
+	</concept>
+	<concept>
+		<code value="02" />
+		<display value="Group" />
+	</concept>
+	<concept>
+		<code value="03" />
+		<display value="Group Floater" />
+	</concept>
+	<concept>
+		<code value="04" />
+		<display value="Declaration" />
+	</concept>
+	<concept>
+		<code value="05" />
+		<display value="Declaration Floater" />
+	</concept>
+	<concept>
+		<code value="06" />
+		<display value="Declaration with Group Organiser" />
+	</concept>
+	<concept>
+		<code value="07" />
+		<display value="Declaration Floater with Group Organiser" />
+	</concept>
+	<concept>
+		<code value="99" />
+		<display value="Any Other Cover Type" />
+	</concept>
+	
+</CodeSystem>

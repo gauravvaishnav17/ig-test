@@ -1,0 +1,59 @@
+{
+    "resourceType":"CoverageEligibilityResponse",
+    "id": "discovery-example-01",
+    "meta": {
+        "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/CoverageEligibilityResponse"
+        ]
+    },
+    
+  
+    "status": "active",
+    "purpose": [
+        "validation",
+        "discovery"
+    ],
+    "patient": {
+        "reference": "Patient/example-01"
+    },
+    "servicedDate": "2023-07-08",
+    "created": "2022-07-08",
+    "requestor": {
+        "reference": "Practitioner/example-01"
+    },
+    "request": {
+        "reference": "CoverageEligibilityRequest/discovery-example-01"
+    },
+    "outcome": "complete",
+    "disposition": "Policy is currently in-force.",
+    "insurer": {
+        "reference": "Organization/example-01"
+    },
+    "insurance": [
+        {
+            "id": "1221",
+            "coverage": {
+                "reference": "Coverage/example-01"
+            },
+            "inforce": true,
+            "item": [
+                {
+
+
+                 
+                    "productOrService": {
+                        "coding": [
+                          {
+                            "system": "http://snomed.info/sct",
+                            "code": "10849003",
+                            "display": "Removal of foreign body"
+                          }
+                        ]
+                      }
+                
+                }
+            ]
+        }
+    ]
+
+}

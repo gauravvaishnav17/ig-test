@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-general-assessment"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-general-assessment"/>
+	<version value="20210326"/>
+	<name value="GeneralAssessment"/>
+	<title value="General Assessment"/>
+	<status value="draft"/>
+	<date value="2021-03-26"/>
+	<description value="This value set covers LOINC and SNOMED CT Codes for General Assessment"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	
+	<compose>
+		<include>
+			<system value="http://loinc.org"/>
+			<concept>
+				<code value="2339-0"/>
+				<display value="Glucose [Mass/volume] in Blood"/>
+			</concept>
+			<concept>
+				<code value="41604-0"/>
+				<display value="Fasting glucose [Mass/volume] in Capillary blood by Glucometer"/>
+			</concept>
+			<concept>
+				<code value="14743-9"/>
+				<display value="Glucose [Moles/volume] in Capillary blood by Glucometer"/>
+			</concept>
+			<concept>
+				<code value="14760-3"/>
+				<display value="Glucose [Moles/volume] in Capillary blood --2 hours post meal"/>
+			</concept>
+			<concept>
+				<code value="73708-0"/>
+				<display value="Body fat [Mass] Calculated"/>
+			</concept>
+			<concept>
+				<code value="34534-8"/>
+				<display value="EKG 12 channel panel"/>
+			</concept>
+			<concept>
+				<code value="8999-5"/>
+				<display value="Fluid intake oral Estimated"/>
+			</concept>
+			<concept>
+				<code value="9052-2"/>
+				<display value="Calorie intake total"/>
+			</concept>
+			<concept>
+				<code value="69429-9"/>
+				<display value="Metabolic rate --resting"/>
+			</concept>
+			<concept>
+				<code value="94122-9"/>
+				<display value="Oxygen consumption (VO2)/Body weight [Volume Rate Content] --peak during exercise"/>
+			</concept>
+			<concept>
+				<code value="8693-4"/>
+				<display value="Mental status"/>
+			</concept>
+		</include>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept>
+				<code value="365275006"/>
+				<display value="General well-being finding"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

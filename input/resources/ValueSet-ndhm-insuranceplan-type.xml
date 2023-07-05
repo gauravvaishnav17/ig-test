@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-insuranceplan-type" />
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-insuranceplan-type" />
+	<version value="20210311" />
+	<name value="InsurancePlanType" />
+	<title value="InsurancePlan Type" />
+	<status value="draft" />
+	<date value="2021-03-11" />
+	<description value="This Valueset is composed of codes that are used to classify the various types of InsurancePlans." />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+			<display value="India" />
+		</coding>
+	</jurisdiction>
+	<compose>
+		<include>
+			<system value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-insuranceplan-type"/>
+		</include>
+	</compose>
+</ValueSet>

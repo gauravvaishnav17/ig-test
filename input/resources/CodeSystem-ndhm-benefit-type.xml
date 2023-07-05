@@ -1,0 +1,52 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="ndhm-benefit-type" />
+	<url value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type" />
+	<version value="3.0.0" />
+	<name value="BenefitType" />
+	<title value="Benefit Type" />
+	<status value="draft" />
+	<date value="2023-06-28" />
+	<publisher value="National Resource Center for EHR Standards" />
+	<contact>
+		<telecom>
+			<system value="url" />
+			<value value="http://nrces.in/" />
+		</telecom>
+	</contact>
+	<description value="This CodeSystem includes a collection of codes that can be used to categorize the type of benefits provided by an insurance." />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+		</coding>
+	</jurisdiction>
+	<caseSensitive value="true" />
+	<content value="complete" />
+
+
+	<concept>
+		<code value="00" />
+		<display value="ICU" />
+	</concept>
+
+	<concept>
+		<code value="01" />
+		<display value="Blood" />
+	</concept>
+
+	<concept>
+		<code value="02" />
+		<display value="Oxygen" />
+	</concept>
+	
+
+	<concept>
+		<code value="03" />
+		<display value="Room Rent" />
+	</concept>
+	
+	
+
+
+
+</CodeSystem>

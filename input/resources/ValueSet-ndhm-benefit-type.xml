@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-benefit-type" />
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-benefit-type" />
+	<version value="20210311" />
+	<name value="BenefitType" />
+	<title value="Benefit Type" />
+	<status value="draft" />
+	<date value="2021-03-11" />
+	<description value="This ValueSet includes a collection of codes that can be used to categorize the type of benefits provided by an insurance." />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="IN" />
+			<display value="India" />
+		</coding>
+	</jurisdiction>
+	<compose>
+		<include>
+			<system value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type"/>
+		</include>
+	</compose>
+</ValueSet>

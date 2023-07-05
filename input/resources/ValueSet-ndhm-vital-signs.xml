@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-vital-signs"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-vital-signs"/>
+	<version value="20210326"/>
+	<name value="VitalSigns"/>
+	<title value="Vital Signs"/>
+	<status value="draft"/>
+	<date value="2021-03-26"/>
+	<description value="This value set covers LOINC Codes for Vital Signs"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This content from LOINCÂ® is copyright Â© 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"/>
+	<compose>
+		<include>
+			<system value="http://loinc.org"/>
+			<concept>
+				<code value="61008-9"/>
+				<display value="Body surface temperature"/>
+			</concept>
+			<concept>
+				<code value="9279-1"/>
+				<display value="Respiratory rate"/>
+			</concept>
+			<concept>
+				<code value="8867-4"/>
+				<display value="Heart rate"/>
+			</concept>
+			<concept>
+				<code value="2708-6"/>
+				<display value="Oxygen saturation in Arterial blood"/>
+			</concept>
+			<concept>
+				<code value="85354-9"/>
+				<display value="Blood pressure panel with all children optional"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

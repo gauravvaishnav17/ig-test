@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-encounter-type"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-encounter-type"/>
+	<version value="20220622"/>
+	<name value="EncounterTypes"/>
+	<title value="EncounterTypes"/>
+	<status value="draft"/>
+	<date value="2022-06-22"/>
+	<description value="This value set includes codes from SNOMED CT" />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
+        <include>
+            <system value="http://snomed.info/sct"/>
+            <concept>
+                <code value="171238007"/>
+                <display value="Arthritis screening"/>
+            </concept>
+            <concept>
+                <code value="171242005"/>
+                <display value="Chromosome abnormality screening"/>
+            </concept>
+            <concept>
+                <code value="171183004"/>
+                <display value="Diabetes mellitus screening"/>
+            </concept>
+            <concept>
+                <code value="391277002"/>
+                <display value="Digestive system disease screening"/>
+            </concept>
+            <concept>
+                <code value="171219003"/>
+                <display value="Ear disorder screening"/>
+            </concept>
+            <concept>
+                <code value="473200002"/>
+                <display value="Genetic screening for disorder"/>
+            </concept>
+            <concept>
+                <code value="171233003"/>
+                <display value="Genitourinary disease screening"/>
+            </concept>
+            <concept>
+                <code value="243790003"/>
+                <display value="Infection screening"/>
+            </concept>
+            <concept>
+                <code value="60151004"/>
+                <display value="Neonatal screening"/>
+            </concept>
+            <concept>
+                <code value="171214008"/>
+                <display value="Neurological screening"/>
+            </concept>
+            <concept>
+                <code value="171228002"/>
+                <display value="Respiratory disease screening"/>
+            </concept>
+            <concept>
+                <code value="300007000"/>
+                <display value="Screening for cardiovascular system disease"/>
+            </concept>
+            <concept>
+                <code value="866150003"/>
+                <display value="Screening for developmental disorder"/>
+            </concept>
+            <concept>
+                <code value="300005008"/>
+                <display value="Screening for mental disorders"/>
+            </concept>
+            <concept>
+                <code value="15886004"/>
+                <display value="Screening for cancer"/>
+            </concept>
+            <concept>
+                <code value="370854007"/>
+                <display value="Screening for substance abuse"/>
+            </concept>
+            <concept>
+                <code value="171237002"/>
+                <display value="Skin disease screening"/>
+            </concept>
+            <concept>
+                <code value="408760009"/>
+                <display value="Vision screening"/>
+            </concept>
+            <concept>
+                <code value="274412005"/>
+                <display value="Eye disorder screening"/>
+            </concept>
+            <concept>
+                <code value="171126009"/>
+                <display value="Tuberculosis screening"/>
+            </concept>
+            <concept>
+                <code value="171121004"/>
+                <display value="HIV screening"/>
+            </concept>
+            <concept>
+                <code value="243787009"/>
+                <display value="Antenatal screening"/>
+            </concept>
+            <concept>
+                <code value="103735009"/>
+                <display value="Palliative care"/>
+            </concept>
+            <concept>
+                <code value="112802009"/>
+                <display value="Cardiovascular surgical procedure"/>
+            </concept>
+            <concept>
+                <code value="71025006"/>
+                <display value="Dilation procedure"/>
+            </concept>
+            <concept>
+                <code value="122459003"/>
+                <display value="Dissection procedure"/>
+            </concept>
+            <concept>
+                <code value="34896006"/>
+                <display value="Incision"/>
+            </concept>
+            <concept>
+                <code value="287391004"/>
+                <display value="Nose, mouth or pharynx operations"/>
+            </concept>
+            <concept>
+                <code value="386638009"/>
+                <display value="Obstetric operation"/>
+            </concept>
+            <concept>
+                <code value="112697007"/>
+                <display value="Operation on musculoskeletal system"/>
+            </concept>
+            <concept>
+                <code value="16545005"/>
+                <display value="Operation on nervous system"/>
+            </concept>
+            <concept>
+                <code value="387661001"/>
+                <display value="Operation on respiratory tract"/>
+            </concept>
+            <concept>
+                <code value="74943008"/>
+                <display value="Operation on trunk"/>
+            </concept>
+            <concept>
+                <code value="107907001"/>
+                <display value="Operative procedure on digestive system"/>
+            </concept>
+            <concept>
+                <code value="89901005"/>
+                <display value="Operative procedure on head"/>
+            </concept>
+            <concept>
+                <code value="107994000"/>
+                <display value="Operative procedure on hematopoietic system"/>
+            </concept>
+            <concept>
+                <code value="107876005"/>
+                <display value="Operative procedure on integumentary system"/>
+            </concept>
+            <concept>
+                <code value="392236004"/>
+                <display value="Operative procedure on spinal structure"/>
+            </concept>
+            <concept>
+                <code value="410771003"/>
+                <display value="Surgical procedure for clinical finding and/or disorder"/>
+            </concept>
+            <concept>
+                <code value="313071005"/>
+                <display value="Substance abuse counselling"/>
+            </concept>
+            <concept>
+                <code value="79841006"/>
+                <display value="Genetic counseling"/>
+            </concept>
+            <concept>
+                <code value="171022008"/>
+                <display value="Psychological counseling"/>
+            </concept>
+            <concept>
+                <code value="24165007"/>
+                <display value="Alcoholism counselling"/>
+            </concept>
+            <concept>
+                <code value="228557008"/>
+                <display value="Cognitive and behavioral therapy"/>
+            </concept>
+            <concept>
+                <code value="75516001"/>
+                <display value="Psychotherapy"/>
+            </concept>
+            <concept>
+                <code value="266739000"/>
+                <display value="Physiotherapy/remedial therapy"/>
+            </concept>
+            <concept>
+                <code value="5154007"/>
+                <display value="Speech therapy"/>
+            </concept>
+            <concept>
+                <code value="773412008"/>
+                <display value="Traditional medicine"/>
+            </concept>
+            <concept>
+                <code value="385804009"/>
+                <display value="Diabetic care"/>
+            </concept>
+            <concept>
+                <code value="367336001"/>
+                <display value="Chemotherapy"/>
+            </concept>
+            <concept>
+                <code value="18629005"/>
+                <display value="Administration of medication"/>
+            </concept>
+            <concept>
+                <code value="86273004"/>
+                <display value="Biopsy"/>
+            </concept>
+            <concept>
+                <code value="23835007"/>
+                <display value="Electroconvulsive therapy"/>
+            </concept>
+            <concept>
+                <code value="397619005"/>
+                <display value="Family planning education"/>
+            </concept>
+        </include>
+
+        </compose>
+        </ValueSet>

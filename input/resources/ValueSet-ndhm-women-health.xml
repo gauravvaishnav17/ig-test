@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-women-health"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-women-health"/>
+	<version value="20210326"/>
+	<name value="WomenHealth"/>
+	<title value="Women Health"/>
+	<status value="draft"/>
+	<date value="2021-03-26"/>
+	<description value="This value set covers LOINC Codes for Women Health"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This content from LOINCÂ® is copyright Â© 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use"/>
+	<compose>
+		<include>
+			<system value="http://loinc.org"/>
+			<concept>
+				<code value="11976-8"/>
+				<display value="Ovulation date"/>
+			</concept>
+			<concept>
+				<code value="92656-8"/>
+				<display value="Number of menstrual periods per year"/>
+			</concept>
+			<concept>
+				<code value="42798-9"/>
+				<display value="Age at menarche"/>
+			</concept>
+			<concept>
+				<code value="42802-9"/>
+				<display value="Age at menopause"/>
+			</concept>
+			<concept>
+				<code value="8665-2"/>
+				<display value="Last menstrual period start date"/>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

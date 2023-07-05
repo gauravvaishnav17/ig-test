@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-route-of-administration"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-route-of-administration"/>
+	<version value="20200828"/>
+	<name value="RouteOfAdministration"/>
+	<title value="Route Of Administration"/>
+	<status value="draft"/>
+	<date value="2020-08-25"/>
+	<description value="This value set contains a set of SNOMED CT codes for Route Of Administration"/>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<filter>
+				<property value="concept" />
+				<op value="is-a" />
+				<value value="284009009" />
+			</filter>
+		</include>
+		<exclude> 
+			<system value="http://snomed.info/sct"/> 
+			<concept> 
+				<code value="284009009"/> 
+				<display value="Route of administration value"/> 
+			</concept> 
+		</exclude> 
+	</compose>
+</ValueSet>

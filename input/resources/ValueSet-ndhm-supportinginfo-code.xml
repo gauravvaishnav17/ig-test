@@ -1,0 +1,119 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ndhm-supportinginfo-code"/>
+  <url
+       value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-supportinginfo-code"/>
+  <version value="3.0.0"/>
+  <name value="SupportingInfoCode"/>
+  <title value="SupportingInfo Code"/>
+  <status value="draft"/>
+  <date value="2022-07-14"/>
+  <publisher value="National Resource Center for EHR Standards"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://nrces.in/"/>
+    </telecom>
+  </contact>
+  <description
+               value="This value set includes code pertaining to the specific information mentioned with the category of SupportingInfo"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="IN"/>
+    </coding>
+  </jurisdiction>
+  <copyright
+             value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+  <compose>
+    <include>
+      <system
+              value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-supportinginfo-code"/>
+     
+    </include>
+	<include>
+      <system
+              value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+    <concept>
+     <code value="DL"/>
+    <display value="Driver's license number"/>
+    </concept>
+     <concept>
+     <code value="PPN"/>
+    <display value="Passport number"/>
+    </concept>
+    </include>
+	<include>
+      <system
+              value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-identifier-type-code"/>
+
+  <concept>
+    <code value="ADN"/>
+    <display value="Adhaar number"/>
+  </concept>
+  <concept>
+    <code value="VID"/>
+    <display value="Voter ID"/>
+  </concept>
+  <concept>
+    <code value="DCF"/>
+    <display value="Domicile Certificate"/>
+  </concept>
+  <concept>
+    <code value="CCF"/>
+    <display value="Caste Certificate"/>
+  </concept>
+  <concept>
+    <code value="SID"/>
+    <display value="Student ID card"/>
+  </concept>
+  <concept>
+    <code value="AL"/>
+    <display value="Arms License"/>
+  </concept>
+  <concept>
+    <code value="SCC"/>
+    <display value="Senior Citizen Card"/>
+  </concept>
+  <concept>
+    <code value="PSC"/>
+    <display value="Pensioners Card"/>
+  </concept>
+<concept>
+    <code value="FF"/>
+    <display value="Freedom Fighter Card having photo"/>
+  </concept>
+  <concept>
+    <code value="KP"/>
+    <display value="Kissan Passbook"/>
+  </concept>
+   <concept>
+    <code value="CGHS"/>
+    <display value="Central Government Health Scheme (CGHS) ID"/>
+  </concept>
+  <concept>
+    <code value="ECHS"/>
+    <display value="Ex-servicemen Contributory Health Scheme (ECHS) ID"/>
+  </concept>
+    <concept>
+    <code value="RCN"/>
+    <display value="Ration Card Number"/>
+  </concept>
+   <concept>
+    <code value="TRC"/>
+    <display value="Tibetan Refugee Card"/>
+  </concept> 
+  <concept>
+    <code value="CFG"/>
+    <display value="Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal"/>
+  </concept> 
+  <concept>
+    <code value="CFE"/>
+    <display value="Certificate of address with photo from Govt. recognized educational institution (for students only)"/>
+  </concept> 
+  <concept>
+    <code value="CFP"/>
+    <display value="Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)"/>
+  </concept> 
+    </include>
+  </compose>
+</ValueSet>

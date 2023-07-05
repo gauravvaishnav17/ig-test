@@ -1,0 +1,1 @@
+﻿This profile aims to capture essential identifiers and descriptors of an insurance plan through the Coverage resource. It encompasses information that is typically found on an insurance card and can be utilized to cover the costs, either partially or entirely, for healthcare products and services.

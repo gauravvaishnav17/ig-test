@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="ndhm-medicine-codes"/>
+	<url value="https://nrces.in/ndhm/fhir/r4/ValueSet/ndhm-medicine-codes"/>
+	<version value="20200918"/>
+	<name value="MedicineCodes"/>
+	<title value="Medicine Codes"/>
+	<status value="draft"/>
+	<date value="2020-09-18"/>
+	<description value="This Value Set covers: Clinical Drugs from SNOMED CT International Edition, Clinical Drugs and Branded Medicines (Real Clinical Drugs) from Common Drug Codes for India (National Extension). For more information refer: [https://www.nrces.in/services/national-releases](https://www.nrces.in/services/national-releases)" />
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166"/>
+			<code value="IN"/>
+			<display value="India"/>
+		</coding>
+	</jurisdiction>
+	<copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct"/>
+			<concept> 
+				<code value="319775004"/> 
+				<display value="Aspirin 75 mg oral tablet"/> 
+			</concept> 
+			<concept> 
+				<code value="370166004"/> 
+				<display value="Aspirin 325 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="374744009"/> 
+				<display value="Aspirin 800 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="370164001"/> 
+				<display value="Aspirin 81 mg chewable tablet"/> 
+			</concept>
+			<concept> 
+				<code value="785018008"/> 
+				<display value="Aspirin 2.5 mg/mL oral solution"/> 
+			</concept>
+			<concept> 
+				<code value="412575004"/> 
+				<display value="Aspirin 325 mg and codeine 30 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="347070003"/> 
+				<display value="Aspirin 500 mg and glycine 133 mg orodispersible tablet"/> 
+			</concept>
+			<concept> 
+				<code value="413586006"/> 
+				<display value="Acetaminophen 250 mg and aspirin 250 mg and caffeine 65 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="412647005"/> 
+				<display value="Aspirin 389 mg and caffeine 32.4 mg and propoxyphene hydrochloride 32 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="322784004"/> 
+				<display value="Aspirin DL-lysine 900 mg and metoclopramide hydrochloride 10 mg oral powder sachet"/> 
+			</concept>
+			<concept> 
+				<code value="322236009"/> 
+				<display value="Acetaminophen 500 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="322246006"/> 
+				<display value="Acetaminophen 100 mg/mL oral solution"/> 
+			</concept>
+			<concept> 
+				<code value="426061004"/> 
+				<display value="Mesalamine 1.2 g gastro-resistant oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="324409009"/> 
+				<display value="Sulfalene 2 g oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="376693009"/> 
+				<display value="Cefadroxil 1 g oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="329838002"/> 
+				<display value="Naproxen 250 mg gastro-resistant oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="416272002"/> 
+				<display value="Zinc 50 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="418197002"/> 
+				<display value="Glucosamine 1 g oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="426863002"/> 
+				<display value="Melatonin 2 mg prolonged-release oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="765963000"/> 
+				<display value="Budesonide 3 mg gastro-resistant oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="765590000"/> 
+				<display value="Felodipine 5 mg prolonged-release oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="765699007"/> 
+				<display value="Ibuprofen 800 mg prolonged-release oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="766432002"/> 
+				<display value="Fusidic acid 10 mg/g prolonged-release eye drops"/> 
+			</concept>
+			<concept> 
+				<code value="324682007"/> 
+				<display value="Miconazole 25 mg/g oral gel"/> 
+			</concept>
+			<concept> 
+				<code value="765651007"/> 
+				<display value="Axitinib 5 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="408068006"/> 
+				<display value="Nabilone 2 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="326272004"/> 
+				<display value="Nystatin 25000 unit/g vaginal cream"/> 
+			</concept>
+			<concept> 
+				<code value="408597001"/> 
+				<display value="Ganciclovir 1.5 mg/g eye gel"/> 
+			</concept>
+			<concept> 
+				<code value="321573006"/> 
+				<display value="Clozapine 25 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="375833002"/> 
+				<display value="Ofloxacin 3 mg/mL ear solution"/> 
+			</concept>
+			<concept> 
+				<code value="785252002"/> 
+				<display value="Glycerin 10 mg/mL eye solution"/> 
+			</concept>
+			<concept> 
+				<code value="321203006"/> 
+				<display value="Diazepam 1 mg/mL oral solution"/> 
+			</concept>
+			<concept> 
+				<code value="784911007"/> 
+				<display value="Carbachol 15 mg/mL eye solution"/> 
+			</concept>
+			<concept> 
+				<code value="407773006"/> 
+				<display value="Sulpiride 40 mg/mL oral solution"/> 
+			</concept>
+			<concept> 
+				<code value="407836002"/> 
+				<display value="Efavirenz 30 mg/mL oral solution"/> 
+			</concept>
+			<concept> 
+				<code value="323074003"/> 
+				<display value="Diazepam 4 mg/mL rectal solution"/> 
+			</concept>
+			<concept> 
+				<code value="410840000"/> 
+				<display value="Ribavirin 40 mg/mL oral solution"/> 
+			</concept>
+			<concept> 
+				<code value="348336006"/> 
+				<display value="Phenol 10 mg/mL cutaneous solution"/> 
+			</concept>
+			<concept> 
+				<code value="784960002"/> 
+				<display value="Epinephrine 1 mg/mL nasal solution"/> 
+			</concept>
+			<concept> 
+				<code value="781971000"/> 
+				<display value="Linezolid 2 mg/mL solution for infusion"/> 
+			</concept>
+			<concept> 
+				<code value="781781009"/> 
+				<display value="Baclofen 2 mg/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="781829000"/> 
+				<display value="Diazepam 5 mg/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="785204007"/> 
+				<display value="Glucose 200 mg/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="446347007"/> 
+				<display value="Denosumab 60 mg/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="782062009"/> 
+				<display value="Piroxicam 20 mg/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="784839007"/> 
+				<display value="Tobramycin 60 mg/mL solution for inhalation"/> 
+			</concept>
+			<concept> 
+				<code value="784910008"/> 
+				<display value="Enflurane 999 mg/mL solution for inhalation"/> 
+			</concept>
+			<concept> 
+				<code value="781996002"/> 
+				<display value="Metronidazole 5 mg/mL solution for infusion"/> 
+			</concept>
+			<concept> 
+				<code value="782021003"/> 
+				<display value="Nitroglycerin 5 mg/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="348190007"/> 
+				<display value="Tolnaftate 10 mg/g cutaneous powder"/> 
+			</concept>
+			<concept> 
+				<code value="766284006"/> 
+				<display value="Clotrimazole 10 mg/g cutaneous powder"/> 
+			</concept>
+			<concept> 
+				<code value="324867004"/> 
+				<display value="Nelfinavir 50 microgram/mg oral powder"/> 
+			</concept>
+			<concept> 
+				<code value="766429000"/> 
+				<display value="Povidone iodine 25 mg/g cutaneous powder spray"/> 
+			</concept>
+			<concept> 
+				<code value="322979001"/> 
+				<display value="Vigabatrin 500 mg powder for oral solution sachet"/> 
+			</concept>
+			<concept> 
+				<code value="375854009"/> 
+				<display value="Hemin 313 mg powder for solution for injection vial"/> 
+			</concept>
+			<concept> 
+				<code value="323961007"/> 
+				<display value="Aztreonam 1 g powder for solution for injection vial"/> 
+			</concept>
+			<concept> 
+				<code value="319948000"/> 
+				<display value="Cholestyramine 4 g powder for oral suspension sachet"/> 
+			</concept>
+			<concept> 
+				<code value="785962002"/> 
+				<display value="Cromolyn sodium 20 mg/actuation powder for inhalation"/> 
+			</concept>
+			<concept> 
+				<code value="785973009"/> 
+				<display value="Noxythiolin 2.5 g powder for solution for injection vial"/> 
+			</concept>
+			<concept> 
+				<code value="782053007"/> 
+				<display value="Phenol 50 mg/mL oil for injection"/> 
+			</concept>
+			<concept> 
+				<code value="781828008"/> 
+				<display value="Diazepam 5 mg/mL emulsion for injection"/> 
+			</concept>
+			<concept> 
+				<code value="782035001"/> 
+				<display value="Oxytocin 5 unit/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="785006004"/> 
+				<display value="Propofol 10 mg/mL suspension for injection"/> 
+			</concept>
+			<concept> 
+				<code value="769129007"/> 
+				<display value="Triptorelin (as triptorelin acetate) 3.75 mg powder for suspension for injection syringe"/> 
+			</concept>
+			<concept> 
+				<code value="766169007"/> 
+				<display value="Somatropin(rbe) 600 microgram powder for solution for injection syringe"/> 
+			</concept>
+			<concept> 
+				<code value="871797008"/> 
+				<display value="Ozanimod (as ozanimod hydrochloride) 920 microgram oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="386086001"/> 
+				<display value="Tacrine 40 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="415163005"/> 
+				<display value="Pregabalin 200 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="430273009"/> 
+				<display value="Temazepam 22.5 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="423454000"/> 
+				<display value="Vorinostat 100 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="370149001"/> 
+				<display value="Acetaminophen 160 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="377441009"/> 
+				<display value="Acetaminophen 325 mg and tramadol 37.5 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="377594002"/> 
+				<display value="Acetaminophen 325 mg and butalbital 50 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="322341003"/> 
+				<display value="Acetaminophen 500 mg and codeine phosphate 30 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="783660005"/> 
+				<display value="Paroxetine (as paroxetine hydrochloride) 10 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="421386002"/> 
+				<display value="Acetaminophen 300 mg and oxycodone hydrochloride 5 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="377343008"/> 
+				<display value="Acetaminophen 325 mg and oxycodone hydrochloride 5 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="370148009"/> 
+				<display value="Acetaminophen 80 mg chewable tablet"/> 
+			</concept>
+			<concept> 
+				<code value="785926003"/> 
+				<display value="Mucin 35 mg/mL oral spray"/> 
+			</concept>
+			<concept> 
+				<code value="703958008"/> 
+				<display value="Avanafil 50 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="324682007"/> 
+				<display value="Miconazole 25 mg/g oral gel"/> 
+			</concept>
+			<concept> 
+				<code value="442888004"/> 
+				<display value="Iloperidone 8 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="445522003"/> 
+				<display value="Rifaximin 550 mg oral tablet"/> 
+			</concept>
+			<concept> 
+				<code value="332248004"/> 
+				<display value="Anthralin 1 mg/g cutaneous cream"/> 
+			</concept>
+			<concept> 
+				<code value="332246000"/> 
+				<display value="Anthralin 5 mg/g cutaneous cream"/> 
+			</concept>
+			<concept> 
+				<code value="333020002"/> 
+				<display value="Acyclovir 50 mg/g cutaneous cream"/> 
+			</concept>
+			<concept> 
+				<code value="331624002"/> 
+				<display value="Benzocaine 30 mg/g cutaneous cream"/> 
+			</concept>
+			<concept> 
+				<code value="332199003"/> 
+				<display value="Calcipotriol 50 microgram/mL cutaneous cream"/> 
+			</concept>
+			<concept> 
+				<code value="413872001"/> 
+				<display value="Clocortolone pivalate 1 mg/mL cutaneous cream"/> 
+			</concept>
+			<concept> 
+				<code value="330588001"/> 
+				<display value="Tropicamide 5 mg/mL eye drops"/> 
+			</concept>
+			<concept> 
+				<code value="409490006"/> 
+				<display value="Hydroxyamphetamine hydrobromide 10 mg/mL and tropicamide 2.5 mg/mL eye solution"/> 
+			</concept>
+			<concept> 
+				<code value="783373002"/> 
+				<display value="Tropisetron (as tropisetron hydrochloride) 5 mg oral capsule"/> 
+			</concept>
+			<concept> 
+				<code value="324682007"/> 
+				<display value="Miconazole 25 mg/g oral gel"/> 
+			</concept>
+			<concept> 
+				<code value="408597001"/> 
+				<display value="Ganciclovir 1.5 mg/g eye gel"/> 
+			</concept>
+			<concept> 
+				<code value="332378006"/> 
+				<display value="Adapalene 1 mg/g cutaneous gel"/> 
+			</concept>
+			<concept> 
+				<code value="135588001"/> 
+				<display value="Benzocaine 100 mg/g dental gel"/> 
+			</concept>
+			<concept> 
+				<code value="330229006"/> 
+				<display value="Felbinac 30 mg/g transdermal gel"/> 
+			</concept>
+			<concept> 
+				<code value="414272004"/> 
+				<display value="Fluocinolone acetonide 100 microgram/mL cutaneous oil"/> 
+			</concept>
+			<concept> 
+				<code value="331469001"/> 
+				<display value="Cod liver oil 114 mg/g and zinc oxide 380 mg/g cutaneous ointment"/> 
+			</concept>
+			<concept> 
+				<code value="781919008"/> 
+				<display value="Haloperidol (as haloperidol decanoate) 50 mg/mL oil for injection"/> 
+			</concept>
+			<concept> 
+				<code value="781828008"/> 
+				<display value="Diazepam 5 mg/mL emulsion for injection"/> 
+			</concept>
+			<concept> 
+				<code value="781752008"/> 
+				<display value="Adenosine 3 mg/mL solution for injection"/> 
+			</concept>
+			<concept> 
+				<code value="784932004"/> 
+				<display value="Diazepam 5 mg/mL suspension for injection"/> 
+			</concept>
+			<concept> 
+				<code value="376105006"/> 
+				<display value="Estrone 15 mg/mL suspension for injection"/> 
+			</concept>
+			
+		</include>
+	</compose>
+</ValueSet>

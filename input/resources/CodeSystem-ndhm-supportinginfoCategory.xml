@@ -1,0 +1,222 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ndhm-supportinginfo-category"/>
+  <url
+       value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-supportinginfo-category"/>
+  <version value="3.0.0"/>
+  <name value="SupportingInfoCategory"/>
+  <title value="SupportingInfo Category"/>
+  <status value="draft"/>
+  <date value="2022-07-14"/>
+  <publisher value="National Resource Center for EHR Standards"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://nrces.in/"/>
+    </telecom>
+  </contact>
+  <description
+               value="This CodeSystem contains classification of the information supplied for the processing of different workflows like claims etc."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="IN"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+	<concept>
+		<code value="POI"/>
+		<display value="Proof of identity"/>
+		<definition value="Proof of identity"/>
+	</concept>
+	<concept>
+		<code value="POA"/>
+		<display value="Proof of address"/>
+		<definition value="Proof of address"/>
+	</concept>
+	<concept>
+		<code value="DOB"/>
+		<display value="Proof of Date of Birth"/>
+		<definition value="Proof of Date of Birth"/>
+	</concept>
+	<concept>
+		<code value="POR"/>
+		<display value="Proof of relation"/>
+		<definition value="Proof of relation"/>
+	</concept>
+	<concept>
+		<code value="PHT"/>
+		<display value="Photograph"/>
+		<definition value="Photograph"/>
+	</concept>
+	<concept>
+		<code value="BVC"/>
+		<display value="Benefiaciary verification card"/>
+		<definition value="Benefiaciary verification card"/>
+	</concept>
+	<concept>
+		<code value="DEF"/>
+		<display value="Declaration form"/>
+		<definition value="Declaration form"/>
+	</concept>
+	<concept>
+		<code value="SIG"/>
+		<display value="Signature"/>
+		<definition value="Signature"/>
+	</concept>
+	<concept>
+		<code value="FCF"/>
+		<display value="Filled claim form"/>
+		<definition value="Filled claim form"/>
+	</concept>
+	<concept>
+		<code value="CER"/>
+		<display value="Medical Certficate"/>
+		<definition value="Medical Certficate"/>
+	</concept>
+	<concept>
+		<code value="MB"/>
+		<display value="Medical bill"/>
+		<definition value="Medical bill"/>
+	</concept>
+	<concept>
+		<code value="DIA"/>
+		<display value="Diagnostic report"/>
+		<definition value="Diagnostic report"/>
+	</concept>
+	<concept>
+		<code value="HDS"/>
+		<display value="Hospital discharge summary"/>
+		<definition value="Hospital discharge summary"/>
+	</concept>
+	<concept>
+		<code value="REF"/>
+		<display value="Referal latter"/>
+		<definition value="Referal latter"/>
+	</concept>
+	<concept>
+		<code value="DEL"/>
+		<display value="Doctor signed extention letter"/>
+		<definition value="Doctor signed extention letter"/>
+	</concept>
+	<concept>
+		<code value="CD"/>
+		<display value="Clinical document"/>
+		<definition value="Clinical document"/>
+	</concept>
+	<concept>
+		<code value="EID"/>
+		<display value="Employee id card"/>
+		<definition value="Employee id card"/>
+	</concept>
+	<concept>
+		<code value="FIR"/>
+		<display value="FIR copy"/>
+		<definition value="FIR copy"/>
+	</concept>
+	<concept>
+		<code value="CIL"/>
+		<display value="Claim status intimation letter"/>
+		<definition value="Claim status intimation letter"/>
+	</concept>
+	<concept>
+		<code value="INF"/>
+		<display value="Additional info related to claim ( conveying additional situation and condition information.)"/>
+		<definition value="Additional info related to claim ( conveying additional situation and condition information.)"/>
+	</concept>
+	<concept>
+		<code value="DIS"/>
+		<display value="Discharge status and discharge to location detail"/>
+		<definition value="Discharge status and discharge to location detail"/>
+	</concept>
+	<concept>
+		<code value="ONS"/>
+		<display value="Period, start or end dates of aspects of the Condition. (e.g. admission, discharge etc)"/>
+		<definition value="Period, start or end dates of aspects of the Condition. (e.g. admission, discharge etc)"/>
+	</concept>
+	<concept>
+		<code value="REL"/>
+		<display value="Related service"/>
+		<definition value="Related service"/>
+	</concept>
+	<concept>
+		<code value="EXC"/>
+		<display value="Exception"/>
+		<definition value="Exception"/>
+	</concept>
+	<concept>
+		<code value="MAT"/>
+		<display value="Materials Forwarded"/>
+		<definition value="Materials Forwarded"/>
+	</concept>
+	<concept>
+		<code value="ATT"/>
+		<display value="Attachment"/>
+		<definition value="Attachment"/>
+	</concept>
+	<concept>
+		<code value="OTH"/>
+		<display value="Other"/>
+		<definition value="Other"/>
+	</concept>
+	<concept>
+		<code value="COI"/>
+		<display value="Injury or accident detail"/>
+		<definition value="Injury or accident detail"/>
+	</concept>
+	<concept>
+		<code value="VRE"/>
+		<display value="Patient Reason for Visit"/>
+		<definition value="Patient Reason for Visit"/>
+	</concept>
+	<concept>
+		<code value="CRD"/>
+		<display value="Claim received"/>
+		<definition value="Claim received"/>
+	</concept>
+	<concept>
+		<code value="NMI"/>
+		<display value="Claim query detail"/>
+		<definition value="Claim query detail"/>
+	</concept>
+	<concept>
+		<code value="TRD"/>
+		<display value="Treatment detail"/>
+		<definition value="Treatment detail"/>
+	</concept>
+	<concept>
+		<code value="IND"/>
+		<display value="Indicator flag"/>
+		<definition value="Indicator flag"/>
+	</concept>
+	 <concept>
+    <code value="IMP"/>
+    <display value="Document Type - Implant"/>
+    <definition value="Document Type - Implant"/>
+  </concept>
+  <concept>
+    <code value="INV"/>
+    <display value="Document Type - Investigation"/>
+    <definition value="Document Type - Investigation"/>
+  </concept>
+  <concept>
+    <code value="DRUG"/>
+    <display value="Document Type - Drug"/>
+    <definition value="Document Type - Drug"/>
+  </concept>
+  <concept>
+    <code value="PCT"/>
+    <display value="Document Type - Patient Consent"/>
+    <definition value="Document Type - Patient Consent"/>
+  </concept>
+  <concept>
+    <code value="DCT"/>
+    <display value="Document Type - Doctor Consent"/>
+    <definition value="Document Type - Doctor Consent"/>
+  </concept>
+  <concept>
+    <code value="HCT"/>
+    <display value="Document Type - Hospital Consent"/>
+    <definition value="Document Type - Hospital Consent"/>
+ </concept>
+</CodeSystem>

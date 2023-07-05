@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ndhm-program-code"/>
+  <url value="https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-program-code"/> 
+  <version value="20220714"/> 
+  <name value="ProgramCode"/> 
+  <title value="Program Code"/> 
+  <status value="draft"/>  
+  <date value="2022-07-14"/> 
+  <publisher value="NRCeS"/> 
+  <contact> 
+    <name value="NRCeS project team"/> 
+    <telecom> 
+      <system value="url"/> 
+      <value value="https://nrces.in"/> 
+    </telecom> 
+  </contact> 
+  <description value="This code system contains set of codes that can be used to classify groupings of service-types/specialties"/> 
+ 
+  <caseSensitive value="true"/> 
+  <content value="complete"/> 
+
+  <concept>
+    <code value="ESIC" />
+    <display value="ESIC" />
+  </concept>
+  <concept>
+    <code value="CAPF" />
+    <display value="CAPF" />
+  </concept>
+  <concept>
+    <code value="HMDG" />
+    <display value="RAN/HMDG" />
+  </concept>
+  <concept>
+    <code value="STATE" />
+    <display value="STATE SCHEMES" />
+  </concept>
+  <concept>
+    <code value="MAA"/>
+    <display value="MAA (Mothers’ Absolute Affection) Programme for Infant and Young Child Feeding"/>
+  </concept>
+
+  <concept>
+    <code value="NIPIAC"/>
+    <display value="National Iron Plus Initiative for Anaemia Control"/>
+  </concept>
+  <concept>
+    <code value="NVAPP"/>
+    <display value="National Vitamin A prophylaxis Programe"/>
+  </concept>
+  <concept>
+    <code value="ICDS"/>
+    <display value="Integrated Child Development Services"/>
+  </concept>
+  <concept>
+    <code value="MDMP"/>
+    <display value="Mid-Day Meal Programme"/>
+  </concept>
+
+  <concept>
+    <code value="NTEP"/>
+    <display value="National Tuberculosis Elimination Programme"/>
+  </concept>
+
+  <concept>
+    <code value="PPP"/>
+    <display value="Pulse Polio Programme"/>
+  </concept>
+
+  <concept>
+    <code value="NPCTOD"/>
+    <display value="National Programme for Control Treatment of Occupational Diseases"/>
+  </concept>
+
+  <concept>
+    <code value="PMNDP"/>
+    <display value="Pradhan Mantri National Dialysis Programme"/>
+  </concept>
+
+  <concept>
+    <code value="LaQshya"/>
+    <display value="LaQshya’ programme (Labour Room Quality Improvement Initiative)"/>
+  </concept>
+  <concept>
+    <code value="NHM"/>
+    <display value="National Health Mission"/>
+  </concept>
+
+  <concept>
+    <code value="PM-ABHIM"/>
+    <display value="PM Ayushman Bharat Health Infrastructure Mission"/>
+  </concept>
+
+  <concept>
+    <code value="PHI"/>
+    <display value="Private Health Insurance"/>
+  </concept>
+  
+  <concept>
+    <code value="AB-PMJAY"/>
+    <display value="Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)"/>
+  </concept>
+  <concept>
+    <code value="CGHS"/>
+    <display value="Central Government Health Scheme (CGHS)"/>
+  </concept>
+  <concept>
+    <code value="ECHS"/>
+    <display value="Ex-Servicemen Contributory Health Scheme(ECHS)"/>
+  </concept>
+  <concept>
+    <code value="JSSK"/>
+    <display value="Janani Shishu Suraksha Karyakaram"/>
+  </concept>
+  <concept>
+    <code value="RKSK"/>
+    <display value="Rashtriya Kishor Swasthya Karyakram"/>
+  </concept>
+  <concept>
+    <code value="RBSK"/>
+    <display value="Rashtriya Bal SwasthyaKaryakram"/>
+  </concept>
+  <concept>
+    <code value="JSY"/>
+    <display value="Janani Suraksha Yojana"/>
+  </concept>
+  <concept>
+    <code value="PMSMA"/>
+    <display value="Pradhan Mantri Surakshit Matritva Abhiyan"/>
+  </concept>
+  <concept>
+    <code value="NSSK"/>
+    <display value="NavjaatShishu Suraksha Karyakram"/>
+  </concept>
+  
+  <concept>
+    <code value="NPPCF"/>
+    <display value="National Programme for Prevention and Control of Fluorosis"/>
+  </concept>
+  
+  <concept>
+    <code value="IDSP"/>
+    <display value="Integrated Disease Surveillance Programme"/>
+  </concept>
+  
+  <concept>
+    <code value="NLEP"/>
+    <display value="National Leprosy Eradication Programme"/>
+  </concept>
+  <concept>
+    <code value="NCVBDCP"/>
+    <display value="National Centre for Vector Borne Diseases Control Progarmme"/>
+  </concept>
+  <concept>
+    <code value="PPCL"/>
+    <display value="Programme for Prevention and Control of leptospirosis"/>
+  </concept>
+  <concept>
+    <code value="NACP"/>
+    <display value="National AIDS Control Programme"/>
+  </concept>
+  
+  <concept>
+    <code value="NVHCP"/>
+    <display value="National Viral Hepatitis Control Program"/>
+  </concept>
+
+  <concept>
+    <code value="NRCP"/>
+    <display value="National Rabies Control Programme"/>
+  </concept>
+  <concept>
+    <code value="AMR"/>
+    <display value="National Programme on Containment of Anti-Microbial Resistance"/>
+  </concept>
+  <concept>
+    <code value="NTCP"/>
+    <display value="National Tobacco Control Programme"/>
+  </concept>
+  <concept>
+    <code value="NPCDCS"/>
+    <display value="National Programme for Prevention and Control of Cancer, Diabetes, Cardiovascular Diseases &amp; Stroke"/>
+  </concept>
+
+  <concept>
+    <code value="NPPCD"/>
+    <display value="National Programme for Prevention and Control of Deafness"/>
+  </concept>
+  <concept>
+    <code value="NMHP"/>
+    <display value="National Mental Health Programme"/>
+  </concept>
+  <concept>
+    <code value="NPCBVI"/>
+    <display value="National Programme for Control of Blindness&amp; Visual Impairment"/>
+  </concept>
+  
+  <concept>
+    <code value="NPHCE"/>
+    <display value="National Programme for the Health Care for the Elderly"/>
+  </concept>
+  <concept>
+    <code value="NPPMBI"/>
+    <display value="National Programme for Prevention &amp; Management of Burn Injuries"/>
+  </concept>
+  <concept>
+    <code value="NOHP"/>
+    <display value="National Oral Health programme"/>
+  </concept>
+  <concept>
+    <code value="NPCCHH"/>
+    <display value="National Programme on Climate Change &amp; Human Health"/>
+  </concept>
+  <concept>
+    <code value="ABY"/>
+    <display value="Ayushman Bharat Yojana"/>
+  </concept>
+  <concept>
+    <code value="PMSSY"/>
+    <display value="Pradhan Mantri Swasthya Suraksha Yojana"/>
+  </concept>
+  
+  <concept>
+    <code value="ABDM"/>
+    <display value="Ayushman Bharat Digital Mission"/>
+  </concept>
+  
+  <concept>
+    <code value="NPPC"/>
+    <display value="National Programme for Palliative Care"/>
+  </concept>
+
+    <concept>
+    <code value="OTH"/>
+    <display value="Other"/>
+  </concept>
+
+</CodeSystem>
